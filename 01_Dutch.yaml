@@ -1,0 +1,747 @@
+# Dutch locale for Invisible Wings
+# Created by Eva van der Meer and Danae Dekker
+
+# The ISO 639-1 code of the locale
+# See https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes for a list
+code: nl
+
+# The Steam API language code of the locale
+# See https://partner.steamgames.com/doc/store/localization#supported_languages for a list
+steamCode: dutch
+
+# The English name of the locale
+displayName: Dutch
+
+# The native name of the locale, as displayed in the options menu in the game
+nativeName: Nederlands
+
+---
+
+# Table for menu elements
+Menu:
+  Yes: Ja
+  No: Nee
+  Next: Volgende
+  Previous: Vorige
+  Apply: Toepassen
+  Back: Terug
+  Close: Sluiten
+
+
+# Table for main menu elements
+Menu/MainMenu:
+  Play: Starten
+  Resume: Verdergaan
+  Manual: Handleiding
+  Options: Opties
+  Credits: Credits
+  Quit: Verlaten
+  QuitConfirmation: Weet je zeker dat je het spel wilt verlaten?
+  QuitToMenu: Hoofdmenu
+  QuitToMenuConfirmation: Weet je zeker dat je terug wilt gaan naar het hoofdmenu? Al je voortgang in het spel zal verloren gaan!
+
+
+# Table for options menu elements
+Menu/OptionsMenu:
+  # Settings
+  Settings: Instellingen
+  SettingsLanguage: Interfacetaal
+  SettingsAudioLanguage: Gesproken taal
+  SettingsAutoReadMode: Automatische leesmodus
+  SettingsAutoReadModeDisabled: Uitgeschakeld
+  SettingsAutoReadModeFast: Snel (0,5 seconden)
+  SettingsAutoReadModeMedium: Middelmatig (1 seconde)
+  SettingsAutoReadModeSlow: Langzaam (2 seconden)
+
+  # Display
+  Display: Beeld
+  DisplayResolution: Resolutie
+  DisplayFullScreenMode: Volledige schermmodus
+  DisplayFullScreenModeExclusiveFullscreen: Volledig scherm
+  DisplayFullScreenModeFullscreenWindow: In een venster zonder rand
+  DisplayFullScreenModeWindowed: In een venster
+
+  # Audio
+  Audio: Geluid
+  AudioMusicLevel: Muziek
+  AudioDialogueLevel: Dialoog
+  AudioSoundEffectsLevel: Geluidseffecten
+
+
+# Table for the manual
+Menu/Manual:
+  Page1: |-
+    <size="36">Welkom</size>
+
+    Deze gids is bedoeld om je vertrouwd te maken met de besturing van Invisible Wings!
+
+    Merk op dat <b>voortgang niet wordt opgeslagen tijdens het spel</b>! Deze demo van Invisible Wings is bedoeld om in één keer te spelen. Een volledige playthrough duurt ongeveer 45 minuten.
+
+    Merk ook op dat Invisible Wings <b>impliciete verwijzingen bevat naar moord en zelfbeschadiging</b>, wat inhoud kan zijn die niet voor iedereen geschikt is. Discretie van de speler wordt geadviseerd.
+  Page2: |-
+    <size="36">Besturing</size>
+
+    Invisible Wings is een visuele novelle en is vooral gericht op dialoog. Om door te gaan naar de volgende dialoog, gebruik je de <b>linkermuisknop</b>, druk je op <b>ENTER</b> of <b>SPATIE</b> op het toetsenbord of op de <b>bevestigen-knop</b> op de controller.
+
+    Op sommige momenten in het spel kun je interacteren met voorwerpen in de omgeving. Om een object te selecteren, beweeg je de muis of gebruik je de <b>linker analoge stick</b> op de controller. Wanneer je een object hebt geselecteerd, gebruik je de <b>linkermuisknop</b>, druk je op <b>ENTER</b> of <b>SPATIE</b> op het toetsenbord of op de <b>bevestigen-knop</b> op de controller om ermee te interacteren.
+
+    Je kunt het spel op elk moment pauzeren door op <b>ESC</b> op het toetsenbord of de <b>menu-knop</b> op de controller te drukken. In het pauzemenu kn je deze handleiding lezen, de spelopties aanpassen of terugkeren naar het hoofdmenu.
+  Page3: |-
+    <size="36">Navigatie door de menu's</size>
+
+    Om door vensters en menu's te navigeren, beweeg je de muis, druk je op de <b>PIJLTJESTOESTEN</b> op het toestenbord of gebruik je de <b>linker analoge stick</b> op de controller. Gebruik de <b>linkermuisknop</b>, druk op <b>ENTER</b> of <b>SPATIE</b> op het toetsenbord of op de <b>bevestigen-knop</b> op de controller om een knop te activeren.
+
+    Om de waarde van selectieknoppen of faders aan te passen, klik je op de pijlen van de selectieknop of op een positie op de fader, druk je op de <b>PIJLTJESTOETSEN</b> of <b>PAGE UP</b> en <b>PAGE DOWN</b> op het toestenbord of gebruik je de <b>linker analoge joystick</b> of de <b>linker en rechter schouderknoppen</b> van de controller.
+
+    Om in een leesvenster zoals deze te navigeren, gebruik je de knoppen onderaan in het venster, druk je op <b>PAGE UP</b> en <b>PAGE DOWN</b> op het toestenbord of de <b>linker en rechter schouderknoppen</b> van de controller om door de pagina's te bladeren of druk je op <b>BACKSPACE</b> op het toetsenbord of de <b>annulleren-knop</b> op de controller om het venster te sluiten.
+  Page4: |-
+    <size="36">Technische ondersteuning</size>
+
+    Zit je ergens vast of kom je een bug tegen? Neem dan gerust contact op met Audune Games via het e-mailadres <b>support@audune.com</b> of via een van onze sociale mediakanalen.
+
+
+# Table for credits
+Menu/Credits:
+  Page1: |-
+    <size="36">Gemaakt door</size>
+
+    <b>Danae Dekker</b>
+    creatieve leiding, ontwikkeling van de game, audio-ontwerp, muziek
+
+    <b>Maricu Mana</b>
+    karakterontwerp en illustraties
+
+    <b>Eva van der Meer</b>
+    scenario
+  Page2: |-
+    <size="36">Met de stemmen van</size>
+
+    <b>Leader Looi</b>
+    Dawn, nieuwslezeres
+
+    <b>Katherine Tole</b>
+    Aranea, meisje
+
+    <b>Jessica Spencer</b>
+    Lilith, jongen
+
+    <b>Martijn Weber</b>
+    nieuwslezer, omroeper
+  Page3: |-
+    <size="36">Speciale dank aan</size>
+
+    Alexis Orellana, Elijah Gabriel, Maarten Oud, Volmer Montsma
+
+    <size="36">Met dank aan</size>
+
+    Amber Veerman, Bastiaan van Bentum, Ciska Vriezenga, Greg Candel, Stijn de Koning, Than van Nispen tot Pannerden, Thomas van Rossum
+
+    <size="36">Aanvullende geluidseffecten</size>
+
+    caquet (freesound.org), giddster (freesound.org), InspectorJ (freesound.org), jimruss68 (freesound.org), kyles (freesound.org), ReiyaManor (freesound.org), Sandermotions (freesound.org), The Unfinished (99sounds.org)
+
+
+# Table for character names
+Characters:
+  Dawn: Dawn
+  Lilith: Lilith
+  Aranea: Aranea
+  Girl: Meisje
+  Boy: Jongen
+  Butterfly: Vlinder
+  FemaleNewsreader: Nieuwslezeres
+  MaleNewsreader: Nieuwslezer
+  Announcer: Omroeper
+
+
+# Table for hints
+Hints:
+  ClickOnObjects: "Klik op voorwerpen om Dawn ermee te laten interacteren"
+  ClickToContinueDialogue: "Klik of druk op de bevestigen-knop om door te gaan naar de volgende dialoog"
+
+
+# Table for dialogue in chapter 1
+Chapter_1/Dialogue:
+  # Nightmare
+  1001_Girl_VO: "Hahaha! Dawn is een fee! Geen enkele ouder wil haar mee!"
+  1002_Boy_VO: "Hey, kijk, het is Dawn, de freak!"
+  1003_Girl_VO: "Hahaha!"
+  1004_Boy_VO: "Oh, zijn dat tranen? Hebben we je aan het huilen gemaakt, Dawn?"
+  1005_Girl_VO: "Verdrink er maar in, Dawn! Net zoals jij en al die andere feeën iedereen verdrinken, verbranden en vermoorden."
+  1006_Dawn_Upset_VO: "Ik-- ik ben geen fee!"
+  1007_Girl_VO: "“Ik ben geen fee!” Moet je jezelf eens horen. Geen wonder dat niemand je wil adopteren."
+  1008_Dawn_Upset_VO: "Stop, alsjeblieft! Laat me gewoon met rust!"
+  1009_Boy_VO: "We zullen je nooit met rust laten, Dawn. Jouw soort verdient niks beters!"
+  1010_Girl_VO: "Kijk om je heen, Dawn. Een huis vol weeskinderen, mensenkinderen, allemaal omdat jouw soort bestaat. Omdat jij bestaat. Vieze hybrid!"
+  1011_Boy_VO: "Hahaha!"
+  1012_Dawn_Shocked_VO: "Nee!"
+
+  # Dawn wakes up
+  1013_Dawn_Shocked: "Nee, alsjeblieft!"
+  1014_Dawn_Sad: "..."
+  1015_Dawn_Neutral: "Het was maar een droom, alleen maar een droom..."
+  1016_Dawn_Neutral: "..."
+  1017_Dawn_Puzzled: "En... wat is toch dat gefladder? Het verbaast me niets als dat geluid me wakkerhoudt."
+  1018_Dawn_Puzzled: "Huh?"
+  1019_Dawn_Smiling: "Hey schoonheid, hoe ben jij hier binnengekomen?"
+  1020_Butterfly: "..."
+  1021_Dawn_Smiling: "Haha! Wel, wat had je gedacht, Dawn? Dat de vlinder zou gaan praten?"
+  1022_Butterfly: "..."
+  1023_Dawn_Smiling: "Normaal ben ik niet zo'n fan van vleugels, maar die van jou zijn wel heel mooi."
+  1024_Dawn_Smiling: "Kom, dan doe ik het raam voor je open. Wel voorzichtig zijn buiten, kleintje!"
+  1025_Dawn_Serious_VO: "Ik heb echt wat meer slaap nodig. Morgen moet ik al vroeg werken en ik heb alle energie hard nodig voor mijn schaatswedstrijd vanavond."
+  1026_Dawn_Neutral_VO: "Maar die nachtmerrie zit nog vers in mijn geheugen."
+  1027_Dawn_Neutral_VO: "Ik denk dat ik even wat afleiding nodig heb om te kalmeren..."
+
+  # Interction with window
+  1101_Dawn_Smiling_VO: "Wat is Ceylynn toch mooi als het nacht is. Al die lichtjes zijn prachtig..."
+  1102_Dawn_Smiling_VO: "Ik ben echt blij dat ik in Ceylynn woon. Ik denk dat een grote stad als deze het veiligste is voor een hybrid."
+
+  # Interaction with diary
+  1201_Dawn_Diary_VO: |-
+    <size="36">22e van Nieuw Begin</size>
+
+    Na lang twijfelen heb ik me vandaag eindelijk aangemeld voor de regionale schaatskampioenschappen. Eigenlijk zijn er speciale voorwaarden om mee te mogen doen als je... je weet wel... een staart hebt. Maar ik wil niet meedoen als hybrid. Ik wil meedoen als mens.
+  1202_Dawn_Diary_VO: |-
+    <size="36">16e van de Maand van Senith</size>
+
+    Wow, ik zie net dat ik al heel lang niet meer heb geschreven. Maar goed, vandaag was een prachtige dag, in tegenstelling tot gisteren.
+
+    Mijn staart deed pijn omdat ik 'm al dagen te strak had opgeborgen, dus besloot ik om dat ding maar eens te laten hangen. Even rust en dan morgen weer verder, dacht ik. Nooit meer! Ik weet dat niet iedereen staart, maar zo voelt het wel. Het voelt alsof mijn staart het enige is waar ze ook maar naar kunnen kijken. Alsof dat alles is aan mij wat er toe doet...
+
+    Maar vandaag was geweldig! Het was wat koud, maar dat vond ik voor een keer niet erg. Extra kledinglaagjes om me onder te verbergen, haha!
+  1203_Dawn_Diary_VO: |-
+    <size="36">11e van Lichtbloei</size>
+
+    Alweer zo'n groot gat in mijn dagboek. Ik krijg het idee dat ik alleen schrijf als ik ergens veel stress over heb. Dat is ergens geen slecht teken. Ik bedoel, stel je vooor dat ik elke dag zou schrijven!
+
+    Volgende week zijn de regionale kampioenschappen en eigenlijk heb ik er best wel zin in!
+  1204_Dawn_Diary_VO: |-
+    <size="36">12e van Lichtbloei</size>
+
+    Kan ik terugnemen wat ik gisteren heb geschreven? Ook al heb ik zin in de competitie, ik begin me ook steeds nerveuzer te voelen!
+  1205_Dawn_Diary_VO: |-
+    <size="36">20e van Lichtbloei</size>
+
+    Er zat net een prachtige vlinder in mijn kamer, midden in de nacht! Zijn vleugels waren echt prachtig, ook al zou ik zelf echt nooit vleugels willen hebben.
+
+    Ik ben niet bijgelovig, maar ik denk dat die vlinder een goed teken was. Het lukt me steeds beter om mijn staart weg te stoppen voordat ik ga schaatsen. Ik moet het vandaag wel voor de eerste keer zonder Aranea's hulp doen, maar dat gaat vast lukken!
+
+  # Interaction with flyer
+  1301_Dawn_Flyer_VO: "Er staat: “Geef de hybrids ook een stem in het gevecht tegen het kwaad!”"
+  1302_Dawn_Serious_VO: "Het is goed dat Aranea de politiek in is gegaan. Ze heeft altijd het beste voor met hybrids én mensen."
+  1303_Dawn_Neutral_VO: "Dat “kwaad” waar Aranea het over heeft, zijn de feeën."
+  1304_Dawn_Neutral_VO: "In de media hoor je voornamelijk verhalen over mensen die door feeën vermoord worden, maar nooit zoveel over hybrids."
+  1305_Dawn_Neutral_VO: "En dat terwijl zij ook slachtoffers zijn, misschien zelfs wel meer."
+  1306_Dawn_Puzzled_VO: "Maar er worden ook feeën vermoord door mensen en hybrids. Hoe verdedig je dat dan?"
+  1307_Dawn_Smiling_VO: "Het is erg nobel dat Aranea zich hiervoor inzet. Zelf zou ik dat niet kunnen."
+
+  # Interaction with radio
+  1401_FemaleNewsreader: "--dat vanavond de tweede ronde van de regionale kampioenschappen kunstschaatsen plaatsvindt!"
+  1402_FemaleNewsreader: "Het belooft een interessante wedstrijd te worden, wat niet gek is, aangezien het aantal deelnemers dit jaar hoger ligt dan normaal!"
+  1403_MaleNewsreader: "Bedankt, Manja! We starten dit uur met een stukje muziek van The Bug Boys. Geniet ervan!"
+  1404_Dawn_Smiling_VO: "Daar ben ik bepaald niet van gekalmeerd!"
+  1405_Dawn_Smiling_VO: "Er is inderdaad veel concurrentie, maar ik weet zeker dat ik er klaar voor ben!"
+  1406_Dawn_Serious_VO: "Dat is wel genoeg muziek voor nu."
+
+  # Interaction with clock
+  1501_Dawn_Serious_VO: "Nog maar zes uur tot mijn wekker weer gaat..."
+  1502_Dawn_Serious_VO: "Ik moet morgenochtend weer vroeg werken in de boekenwinkel."
+
+  # Interaction with skates
+  1601_Dawn_Smiling_VO: "Mijn meest dierbare bezitting!"
+  1602_Dawn_Smiling_VO: "Ik heb maanden voor deze gespaard en gelukkig waren ze net in de uitverkoop toen ik naar de winkel ging!"
+  1603_Dawn_Smiling_VO: "Ik heb nog nooit een wedstrijd op andere schaatsen geschaatst."
+  1604_Dawn_Smiling_VO: "Elke wedstrijd is weer spannend, maar ik kijk er altijd weer naar uit!"
+  1605_Dawn_Smiling_VO: "Ik heb maanden geoefend met Aranea, dus het komt vast goed!"
+
+  # Interaction with photo
+  1701_Dawn_Serious_VO: "Aranea en ik leerden elkaar kennen nog vóór de verbouwing van het weeshuis."
+  1702_Dawn_Smiling_VO: "Aranea was de enige hybrid in het huis voordat ik er kwam. Het klikte meteen tussen ons!"
+  1703_Dawn_Serious_VO: "Niemand wilde iets met je te maken hebben als je een hybrid was. Achteraf begrijp ik dat wel."
+  1704_Dawn_Serious_VO: "De meeste kinderen waren wees geworden door de daden van een fee."
+  1705_Dawn_Serious_VO: "Kinderen kwamen en gingen weer, maar wij zijn met z'n tweeën altijd bij elkaar gebleven in het huis."
+  1706_Dawn_Smiling_VO: "Vroeger keek ik op tegen Aranea, nu stiekem ook nog wel. Ze is echt als een soort oudere zus."
+  1707_Dawn_Smiling_VO: "Er is niemand die me ooit beschermd heeft, behalve Aranea. Uiteindelijk hebben we best veel gemeen met elkaar."
+  1708_Dawn_Serious_VO: "Aranea vertelt nooit zoveel over hoe haar ouders zijn omgekomen, alleen dat de geruchten kloppen."
+  1709_Dawn_Serious_VO: "Dat feeën gevaarlijk zijn en dat we bij ze uit de buurt moeten blijven."
+  1710_Dawn_Serious_VO: "Ik ben eigenlijk niet zo bang voor feeën, maar dat is makkelijk te zeggen als je er nog nooit een hebt gezien."
+  1711_Dawn_Puzzled_VO: "Maar als ze echt zo moordlustig waren, waarom is dan niet heel Ceylynn al uitgeroeid?"
+
+  # Interaction with bed
+  1801_Dawn_Neutral_VO: "Ik denk dat het slim is om nog wat meer te slapen."
+  1802_Prompt_Yes: "Ga terug naar bed"
+  1803_Prompt_No: "Nog niet"
+
+
+# Table for interactive objects in chapter 1
+Chapter_1/Objects:
+  Bed: Bed
+  Clock: Klok
+  Diary: Dagboek van Dawn
+  Door: Deur
+  Flyer: Flyer van Aranea
+  Photo: Foto
+  Radio: Draagbare radio
+  Skates: Kunstschaatsen
+  Window: Raam
+
+
+# Table for dialogue in chapter 2
+Chapter_2/Dialogue:
+  # Aranea helps Dawn with tucking her tail
+  2001_Dawn_UpsetAtTail: "Kom op! Werk alsjeblieft even mee vandaag!"
+  2002_Aranea_Smiling: "Dawn? Lukt het?"
+  2003_Dawn_Smiling: "Aranea! Wat ben ik blij dat je er bent!"
+  2004_Aranea_Smiling: "Natuurlijk ben ik er!"
+  2005_Aranea_Smiling: "Heb je er een beetje vertrouwen in?"
+  2006_Dawn_Sad: "..."
+  2007_Aranea_Worried: "Dawn?"
+  2008_Dawn_Upset: "Mijn stomme staart werkt niet mee, ik krijg hem niet goed opgeborgen."
+  2009_Dawn_Sad: "Als ze ontdekken dat ik een staart heb, dan diskwalificeren ze me meteen!"
+  2010_Aranea_Smiling: "Dat zal vast wel meevallen."
+  2011_Dawn_Sad: "Denk je dat echt?"
+  2012_Aranea_Puzzled: "Hmm..."
+  2013_Aranea_Puzzled: "Die hele wedstrijd gaat er toch om hoe goed je kan schaatsen?"
+  2014_Aranea_Serious: "Bovendien hoort je staart bij jou, Dawn."
+  2015_Aranea_Serious: "Je kunt niet zonder, net zomin je zonder je benen kan."
+  2016_Dawn_Sad: "Ik waardeer je opmerking, Aranea..."
+  2017_Dawn_Crying: "Maar elke keer als ik die staart zie, denk ik aan waar die vandaan komt en hoe ik daar niet mee geässocieerd wil worden."
+  2018_Aranea_Neutral: "Sorry, dat snap ik."
+  2019_Aranea_Smiling: "En het gaat nu ook helemaal niet om wat ik vind, het gaat om jou."
+  2020_Aranea_Smiling: "Kom, laat me je helpen."
+  2021_Aranea_Smiling: "Pak je schaatsen, dan kunnen we die ook meteen aantrekken."
+
+  # After interaction with skates
+  2022_Aranea_Smiling: "Kijk eens aan. Niks meer van te zien!"
+  2023_Dawn_Smiling: "Ik weet echt niet wat ik zonder je zou moeten, Aranea."
+  2024_Dawn_Smiling: "Ik dacht dat je niet zou komen, dat je moest protesteren?"
+  2025_Aranea_Smiling: "Moest ik ook, maar nu ben ik hier."
+  2026_Dawn_Shocked: "Maar je protest--"
+  2027_Aranea_Smiling: "Is minder belangrijk dan jouw wedstrijd."
+  2028_Dawn_Serious: "Dan hoop ik dat je niet voor niets bent gekomen. Ik weet niet of ik dit wel kan..."
+  2029_Aranea_Smiling: "Doe niet zo gek, tuurlijk kan jij dit."
+  2030_Aranea_Serious: "Volgens mij gaat de wedstrijd ook zo beginnen, dus we hebben helemaal geen tijd om na te denken of je dit kan of niet."
+  2031_Aranea_Smiling: "Je gaat het gewoon doen! Niet nadenken, gewoon doen!"
+  2032_Dawn_Smiling: "Niet nadenken, gewoon doen!"
+
+
+# Table for interactive objects in chapter 2
+Chapter_2/Objects:
+  Skates: Kunstschaatsen
+
+
+# Table for splash texts in chapter 2
+Chapter_2/Splash:
+  NextEvening: "De volgende avond..."
+
+
+# Table for dialogue in chapter 3
+Chapter_3/Dialogue:
+  # Lilith's peformance
+  3001_Announcer: "Onze één na laatste deelnemer is Lilith!"
+  3002_Announcer: "Ze behaalde eerder 66,26 punten op haar korte kür. Geef haar een warm applaus!"
+  3003_Dawn_Serious_VO: "Tot nu toe was iedereen echt goed, maar ik denk dat ik wel een kans maak."
+  3004_Dawn_Serious_VO: "Ik ben benieuwd hoe die Lilith het gaat doen."
+  3005_Dawn_Shocked_VO: "Wow, dat was echt bizar! Wat een opening!"
+  3006_Dawn_Shocked_VO: "Jemig, ze... ze is echt goed! Die sprong en dan deze draai, dat is echt--"
+  3007_Dawn_Puzzled_VO: "Wacht... zijn dat nou... vleugels?"
+  3008_Dawn_Puzzled_VO: "Nee, dat kan toch niet..."
+  3009_Dawn_Shocked_VO: "Ja, het is echt zo! Dat ik dat niet eerder heb gezien!"
+  3010_Dawn_Serious_VO: "Nu snap ik wel dat ze zulke hoge sprongen kan maken, met die vleugels is dat een eitje."
+  3011_Dawn_Serious_VO: "Dit mag toch eigenlijk niet? Het leidt ook nog ontzettend af."
+  3012_Dawn_Serious_VO: "Maar ze schaatst zo goed... Dat komt vast door die vleugels."
+  3013_Dawn_Upset_VO: "Maar ik kan niet geloven dat niemand hier iets van zegt! Ziet niemand die dingen dan flikkeren?"
+  3014_Announcer: "Wat een opvoering! En dan nu, de punten!"
+  3015_Dawn_Serious_VO: "Niet naar luisteren, Dawn. Het maakt niet uit wat ze heeft gehaald, jij kunt dit!"
+  3016_Announcer: "Op haar vrije kür scoort Lilith 127,97 punten!"
+  3017_Dawn_Upset_VO: "Jij kunt dit, jij kunt dit... Je gaat niet verliezen van een fee."
+  3018_Announcer: "De totaalscore is dus... 194,23 punten!"
+  3019_Announcer: "Dat betekent dat Lilith op dit moment op de eerste plaats staat, gefeliciteerd!"
+  3020_Dawn_Upset_VO: "Blijf rustig, Dawn."
+  3021_Announcer: "En nu door naar onze laatste deelnemer in de categorie solo vrouwen: Dawn!"
+  3022_Announcer: "Zij behaalde 67,82 puten op haar korte kür. Geef haar een applaus!"
+  3023_Dawn_Serious_VO: "Oké... Jij kunt dit, Dawn."
+  3024_Dawn_Serious_VO: "Gewoon rustig blijven en laat je niet afleiden."
+
+
+# Table for dialogue in chapter 4
+Chapter_4/Dialogue:
+  # Dawn's performance
+  4001_Dawn_Enthusiastic_VO: "Dit gedeelte lukt me altijd!"
+  4002_Dawn_Enthusiastic_VO: "Yes! Dat had niet beter kunnen gaan!"
+  4003_Dawn_Serious_VO: "Oef, dat kon beter. Ik moet maar snel doorgaan!"
+  4004_Dawn_Puzzled_VO: "Hé! Daar is die fee weer in het publiek. En haar vleugels flikkeren nog steeds!"
+  4005_Dawn_Serious_VO: "Gewoon door blijven gaan, Dawn, probeer gewoon niet op die fee te letten."
+  4006_Dawn_Upset_VO: "Argh! Ik kan me niet concentreren met die fee in de buurt!"
+  4007_Dawn_Serious_VO: "Oké, dit is mijn kans. Als deze sprong lukt, win ik deze competitie sowieso!"
+  4008_Dawn_Shocked_VO: "Oh nee, mijn staart komt los!"
+  4009_Dawn_Neutral_VO: "Oef, die val doet nog steeds een beetje pijn."
+  4010_Dawn_Puzzled_VO: "Waarom duurt dit zo lang? Wat is de jury daar aan het overleggen?"
+  4011_Announcer: "Na kort overleg heeft de jury besloten dat Dawn helaas is gediskwalificeerd."
+  4012_Announcer: "In de veiligheidsvoorschriften staat duidelijk dat deelnemers aan moeten geven dat zij een staart hebben..."
+  4013_Announcer: "Zo kunnen de organisatie en de deelnemer samen kijken naar een oplossing voor dit probleem."
+  4014_Dawn_Shocked: "Nee! Nee! Alsjeblieft! Dat is niet eerlijk!"
+  4015_Dawn_Upset: "Hebben jullie niet gezien dat--"
+  4016_Announcer: "En dat maakt Lilith de winnaar van de competitie voor solo vrouwen! Gefeliciteerd!"
+  4017_Dawn_Upset_VO: "Niet te geloven! Lilith heeft gewonnen! Lekker makkelijk als je de anderen afleidt..."
+
+
+# Table for dialogue in chapter 5
+Chapter_5/Dialogue:
+  # Dawn meets Lilith
+  5001_Dawn_Angry: "Ik wist het! Ik wist dat dit fout zou gaan!"
+  5002_Dawn_Angry: "Alles gaat altijd fout als er feeën in de buurt zijn..."
+  5003_Dawn_Angry: "En zeker een die me probeert af te leiden met haar flikkerende vleugels."
+  5004_Dawn_Angry: "Het is toch zeker niet míjn schuld dat--"
+  5005_Lilith_Smiling: "Hallo? Is Dawn hier?"
+  5006_Dawn_Neutral: "Ja, ik ben hier."
+  5007_Lilith_Smiling: "Ik zag je net schaatsen, je bent echt heel goed!"
+  5008_Lilith_Smiling: "Het is helemaal onterecht dat je gediskwalifieerd bent. Volgens mij was je helemaal niet onveilig bezig."
+  5009_Lilith_Smiling: "Ik vind zelf je staart juist heel--"
+  5010_Dawn_Shocked: "Jij?!"
+  5011_Dawn_Angry: "Jij hebt helemaal niks te zeggen over mijn staart, dus hou je mond!"
+  5012_Dawn_Angry: "Dit is allemaal jouw schuld! Heb je enig idee hoe hard ik hiervoor heb moeten trainen?"
+  5013_Dawn_Angry: "Hoe lang ik gedroomd heb van dit moment?"
+  5014_Dawn_Angry: "Alleen maar zodat je mij kan lopen saboteren en vervolgens met de prijs weg kan lopen?"
+  5015_Dawn_Angry: "Weet je hoe gênant het is om te verliezen van een fee? Wie denk je wel niet dat je bent?"
+  5016_Lilith_Puzzled: "Maar--"
+  5017_Dawn_Angry: "Oh, je weet heus wel waar ik het over heb."
+  5018_Dawn_Angry: "Jij en die flikkerende vleugels van je hebben mijn hele opvoering verpest."
+  5019_Dawn_Angry: "Hoe moet ik me concentreren als die... dingen me zo zitten af te leiden?"
+  5020_Lilith_Sad: "Ik-- Het spijt me... Ik wist niet dat je mijn vleugels kon zien."
+  5021_Lilith_Sad: "Het was echt niet mijn bedoeling om je af te leiden."
+  5022_Dawn_Angry: "Nee, natuurlijk niet."
+  5023_Dawn_Angry: "En het was zeker ook niet je bedoeling om me nog een trap na te komen geven door hier te komen opscheppen!"
+  5024_Lilith_Shocked: "Ik--"
+  5025_Dawn_Angry: "Ga alsjeblieft gewoon weg!"
+  5026_Dawn_Upset: "Argh!"
+
+  # Aranea comforts Dawn
+  5027_Aranea_Neutral: "Dawn, gaat het wel?"
+  5028_Aranea_Worried: "Dawn?"
+  5029_Dawn_Sad: "..."
+  5030_Aranea_Worried: "Oh, Dawn..."
+  5031_Dawn_Crying: "Ik had kunnen weten dat dat ding verstoppen niet genoeg was..."
+  5032_Aranea_Neutral: "Het was het enige dat we konden doen."
+  5033_Dawn_Crying: "Maar haar vleugels, Aranea! Die dingen flikkerden!"
+  5034_Dawn_Crying: "Ze is een fee en ze heeft gewonnen!"
+  5035_Dawn_Upset: "Dat is toch niet eerlijk? Ze had überhaupt niet mee mogen doen met die vleugels!"
+  5036_Aranea_Puzzled: "Welke vleugels heb je het over?"
+  5037_Dawn_Upset: "De vleugels van die fee die de wedstrijd heeft gewonnen, en met wie ik net ruzie stond te maken."
+  5038_Aranea_Neutral: "Ik zag geen vleugels, Dawn."
+  5039_Dawn_Upset: "Je gaat met toch niet vertellen dat ik me dingen inbeeld?"
+  5040_Dawn_Upset: "Ze flikkerden echt! Ik kon me niet meer op mijn opvoering concenteren."
+  5041_Dawn_Shocked: "..."
+  5042_Dawn_Shocked: "Wat als Lilith écht geen vleugels had?"
+  5043_Dawn_Shocked: "Ik heb zulke lelijke dingen tegen haar gezegd, Aranea!"
+  5044_Dawn_Shocked: "Ze kwam me alleen maar vertellen dat ze onder de indruk was van mijn opvoering."
+  5045_Dawn_Shocked: "Wat als ze helemaal geen fee was?"
+  5046_Aranea_Serious: "Wacht, je denkt écht dat ze een fee is?!"
+  5047_Aranea_Serious: "Als ze dat is, heb je nu een heel ander probleem, Dawn, en dat weet je volgens mij zelf ook."
+  5048_Dawn_Sad: "Ik heb nu echt geen zin in een preek, Aranea..."
+  5049_Aranea_Serious: "Ik meen het, Dawn! Blijf bij feeën uit de buurt! Ze zijn levensgevaarlijk!"
+  5050_Aranea_Serious: "Als Lilith echt een fee is en ze weet nu wie jij bent, en als je zelfs ruzie met haar hebt gemaakt..."
+  5051_Aranea_Serious: "...dan heb je een veel groter probleem dan alleen maar deze schaatswedstrijd."
+  5052_Dawn_Angry: "Volgens mij valt dat reuze mee, hoor. Er is al in weken geen incident meer geweest!"
+  5053_Aranea_Serious: "Nee, het valt niet mee!"
+  5054_Aranea_Angry: "Je moet nadenken voor je doet, Dawn! Vergeet dat hele “gewoon doen” van mij."
+  5055_Aranea_Angry: "Het is niet de bedoeling dat je jezelf in gevaar brengt!"
+  5056_Dawn_Angry: "Op mij kwam ze anders helemaal niet als een moordenaar over."
+  5057_Dawn_Angry: "Ze kwam hallo zeggen en vertelde me dat ze vond dat ik goed kon schaatsen. Dat is niet het gedrag van een moordenaar, of wel soms?"
+  5058_Aranea_Angry: "Nu nog niet, nee! Maar je denkt er wel anders over als je straks levend verbrandt alleen maar omdat je haar de hand schudt!"
+  5059_Aranea_Shocked: "..."
+  5060_Aranea_Serious: "Sorry, ik maak het ook niet beter, hè?"
+  5061_Aranea_Serious: "Volgens mij zijn we allebei een beetje overstuur nu, en ben jij ook wel toe aan wat nachtrust."
+  5062_Dawn_Smiling: "Jij ook wel, of niet?"
+  5063_Aranea_Smiling: "Ja, misschien wel."
+  5064_Aranea_Smiling: "Laten we anders morgenochtend bij Mae's afspreken."
+  5065_Aranea_Smiling: "Dan nemen we allebei de tijd om even uit te rusten en praten we daar verder."
+  5066_Dawn_Smiling: "Ja, dat klinkt wel goed. Tot morgen!"
+
+
+# Table for dialogue in chapter 6
+Chapter_6/Dialogue:
+  # Dawn is waiting for Aranea
+  6001_Dawn_Neutral_VO: "Ik vraag me af waarom Aranea zo op zich laat wachten. Hopelijk is ze niet doordrenkt tegen de tijd dat ze hier is!"
+
+  # Interaction with menu
+  6101_Dawn_Smiling_VO: "Ik heb gehoord dat de nieuwe vruchtencake die Lena maakt geweldig moet zijn!"
+  6102_Dawn_Smiling_VO: "Misschien kan ik die vandaag als ontbijt proberen."
+
+  # Interaction with rain coat
+  6201_Dawn_Neutral_VO: "Het heeft al in lange tijd niet meer zo veel geregend. Wat een verschil met die mooie lentedag van gisteren."
+
+  # Interaction with jukebox
+  6301_Dawn_Smiling_VO: "Tijdens het wachten kan ik best wat muziek luisteren, toch?"
+  6302_Dawn_Smiling_VO: "Misschien zijn er weer nieuwe singles uitgebracht!"
+  6303_Prompt_Yes: "Luister naar muziek"
+  6304_Prompt_No: "Nu niet"
+  6305_Dawn_Neutral_VO: "Dat was heerlijke muziek!"
+
+  # Interaction with newspaper
+  6401_Dawn_Serious_VO: "Hmm, wat kan dit zijn?"
+  6402_Dawn_Newspaper_VO: |-
+    <size="36">Feeënverdelger slaat weer toe</size>
+
+    De mysterieuze feeënverdelger heeft gisteren een nieuw leven genomen. Hun laatste slachtoffer, een 23-jarige fee, werd vanochtend enkele straten van het lokale winkelcentrum gevonden. Haar lichaam zat onder de schrammen en haar vleugels lijken hardhandig verwijderd te zijn.
+
+    De autoriteiten tasten nog altijd in het duister en roepen alle mensen, feeën en hybrids op om te melden als zij iets ongebruikelijks zien.
+  6403_Dawn_Shocked_VO: "Wow, dat is vreselijk!"
+  6404_Dawn_Upset_VO: "Het is gewoon--"
+  6405_Dawn_Upset_VO: "Ik ben zo klaar met dat geweld! Het leidt alleen maar tot pijn, het lost niets op."
+  6406_Dawn_Serious_VO: "Niemand verdient het om vermoord te worden puur om hoe ze geboren zijn, zelfs feeën niet."
+  6407_Dawn_Sad_VO: "Arme meid..."
+  6408_Dawn_Serious_VO: "Ik hoop dat al dat moddergegooi eindelijk eens stopt. Het zijn zoveel verspilde levens van mensen, hybrids en ook feeën."
+
+  # Interaction with Aranea (65):
+  6501_Dawn_Smiling_VO: "Oh, daar is Aranea. Zal ik haar roepen?"
+  6502_Prompt_Yes: "Roep Aranea"
+  6503_Prompt_No: "Nog niet"
+  6504_Dawn_Waving: "Hoi, Aranea!"
+  6505_Aranea_Smiling: "Hallo, Dawn!"
+
+  # Dawn talks with Aranea
+  6002_Aranea_Neutral: "Heb je goed geslapen vannacht?"
+  6003_Dawn_Smiling: "Verrassend goed ja! En jij?"
+  6004_Aranea_Neutral: "Ik heb betere nachten gehad. Maar ik heb wel genoeg tijd gehad om na te denken."
+  6005_Dawn_Enthusiastic: "Ik ook! Ik ben tot de conclusie gekomen dar er maar één ding is dat ik kan doen na gisteren."
+  6006_Aranea_Smiling: "Je aanmelden voor een nieuwe schaatswedstrijd?"
+  6007_Dawn_Puzzled: "Hmm..."
+  6008_Dawn_Smiling: "Oké, misschien heb ik twee opties."
+  6009_Aranea_Smiling: "Vertel!"
+  6010_Dawn_Smiling: "Ik moet Lilith vinden en mijn excuses aanbieden."
+  6011_Aranea_Puzzled: "Dawn?!"
+  6012_Dawn_Neutral: "Wacht, laat me uitpraten, oké? Dus stel dat Lilith écht een fee is."
+  6013_Dawn_Smiling: "Dat betekent dat ze haar vleugels en staart heeft kunnen verbergen met een soort magie, en misschien kan ze mij helpen dat ook te doen!"
+  6014_Dawn_Neutral: "Als ze geen fee was en ik het verkeerd heb gezien, verdient ze echt mijn verontschuldigingen."
+  6015_Dawn_Sad: "Ik ben erg lelijk tegen haar geweest en ze kwam alleen maar hallo zeggen."
+  6016_Aranea_Serious: "Dawn, je weet hoe ik hierover denk."
+  6017_Dawn_Serious: "Maar gaat het er niet om wat ík ervan denk, Aranea?"
+  6018_Aranea_Angry: "Denk je ook wel eens na over de consequenties die jouw acties voor mij hebben, als je vriendin?"
+  6019_Dawn_Serious: "Ja, naturlijk, maar--"
+  6020_Aranea_Angry: "Maar wat? Ik dacht dat de hele reden was dat je die staart van je weg wilt hebben dat je niet met feeën geassocieerd wilde worden."
+  6021_Aranea_Angry: "Waarom wil je dan in hemelsnaam op zoek gaan naar een fee?"
+  6022_Dawn_Angry: "Je begrijpt er niks van, Aranea!"
+  6023_Aranea_Angry: "Leg het me dan uit, Dawn! Ik wil het echt wel begrijpen, maar dat lukt me eerlijk gezegd totaal niet."
+  6024_Dawn_Sad: "Ik--"
+  6025_Dawn_Upset: "Mijn hele leven heb ik mezelf gehaat, oké? Waar ik vandaan kwam, wat dat met de mensen om me heen heeft gedaan..."
+  6026_Dawn_Upset: "Al dat zinloze geweld, al die pijn... Ik heb er nooit wat aan kunnen doen."
+  6027_Dawn_Serious: "En dat was denk ik ook totaal niet mijn taak, maar de jouwe. Ik ben niet gemaakt om de politiek in te gaan."
+  6028_Dawn_Serious: "En ik-- ik weet niet, het is waarschijnlijk stom..."
+  6029_Aranea_Neutral: "Ga door."
+  6030_Dawn_Serious: "Er is niks dat klopt aan die staart. Dat ding móét er af, Aranea!"
+  6031_Dawn_Serious: "En iedereen die 'm ziet, kan vertellen dat ik dat geprobeerd heb. De littekens zeggen genoeg."
+  6032_Dawn_Sad: "Maar het mislukt altijd en ik blijf maar falen en falen en falen..."
+  6033_Dawn_Upset: "En elke keer als ik in de spiegel kijk, dan zie ik 'm weer. Dat-- dat aanhangsel!"
+  6034_Dawn_Upset: "Het hoort niet bij mij en dat zal het ook nooit doen. Ik wil geen hybrid of fee zijn, ik wil gewoon een mens zijn."
+  6035_Dawn_Sad: "En ik weet dat dat niet kan, maar ik kan op zijn minst doen alsof. Snap je?"
+  6036_Aranea_Worried: "Ik denk het..."
+  6037_Dawn_Sad: "En je snap toch ook wel dat als ik iemand tegenkom die dat voor me op kan lossen, dat ik die kans met beide handen aangrijp!"
+  6038_Dawn_Sad: "Zelfs als dat betekent dat ik een groot risico loop. Want ik denk niet dat ik zo nog langer kan doorgaan..."
+  6039_Aranea_Shocked: "..."
+  6040_Aranea_Shocked: "Dawn, waarom heb je me nooit verteld dat je je zo verschikkelijk voelt?"
+  6041_Dawn_Sad: "Ik wilde niet dat je nog meer aan je hoofd had..."
+  6042_Aranea_Serious: "Ik moet dit soort dingen weten, Dawn, zodat--"
+  6043_Dawn_Angry: "Zodat wat? je kunt niet álles oplossen, Aranea!"
+  6044_Aranea_Neutral: "Ja, dat weet ik..."
+  6045_Dawn_Angry: "Wat zou je gaan doen dan? Hoe wil je dit voor me oplossen? Want ik sta open voor alle suggesties."
+  6046_Aranea_Neutral: "Ik..."
+  6047_Dawn_Serious: "Dat dacht ik al. Kijk, ik weet dat dit lastig en eng voor je is."
+  6048_Dawn_Neutral: "Als ik in jouw schoenen stond, zou ik ook niet willen dat jij dit zou doen."
+  6049_Dawn_Neutral: "Maar je moet begrijpen dat ik erg voorzichtig ga doen."
+  6050_Aranea_Worried: "Je bent mijn beste vriendin, ik denk niet dat ik zonder je kan, Dawn."
+  6051_Dawn_Smiling: "En dat hoeft ook niet! Mij overkomt niets, dat beloof ik."
+  6052_Aranea_Worried: "..."
+  6053_Dawn_Neutral: "Echt! Ik wil je geen pijn doen, maar ik moet dit gewoon doen voor mijn eigen welzijn."
+  6054_Aranea_Worried: "Ik smeek je, Dawn. Doe dit alsjeblieft niet. Het is nu misschien lastig, maar dit is niet de oplossing die je zoekt."
+  6055_Dawn_Neutral: "Aranea..."
+  6056_Aranea_Serious: "Ik beloof je. Ik ga er alles aan doen om je te helpen met je staart, en ik ga er alles aan doen om je veilig te houden."
+  6057_Aranea_Serious: "Beloof me alsjeblieft dat je niet achter deze fee aan gaat."
+  6058_Dawn_Sad: "Dat kan ik niet doen..."
+  6059_Aranea_Worried: "Ik smeek je."
+  6060_Dawn_Sad: "..."
+  6061_Aranea_Enthusiastic: "Wacht, ik heb het! Ik ken genoeg mensen bij de autoriteiten, in de politiek, in de stad, waar dan ook."
+  6062_Aranea_Enthusiastic: "Wat als ik aan hen vraag of iedereen op wil letten voor Lilith en mij waarschuwen als ze haar zien?"
+  6063_Aranea_Smiling: "En ik hou zelf ook een oogje in het zeil!"
+  6064_Dawn_Puzzled: "En dan?"
+  6065_Aranea_Smiling: "Als we haar vinden, ga ik samen met iemand naar haar toe en kijken we vanaf daar verder."
+  6066_Dawn_Worried: "Maar ben jij dan wel veilig?"
+  6067_Aranea_Smiling: "Ik? Mij overkomt niks, ik heb niet voor niets twee lessen zelfverdediging gevolgd!"
+  6068_Dawn_Smiling: "Hahaha!"
+  6069_Dawn_Worried: "Maar het voelt gewoon niet goed om stil te zitten en jou al het werk te laten doen."
+  6070_Aranea_Smiling: "Jij kan natuurlijk ook om je heen kijken, maar ga de confrontatie met haar niet alleen aan."
+  6071_Aranea_Serious: "Maar ga voor nu naar huis en rust nog wat uit."
+  6072_Aranea_Neutral: "Ik zou graag met je meegaan, maar er zijn andere dingen die ik nog moet doen."
+  6073_Dawn_Neutral: "Wat voor dingen?"
+  6074_Aranea_Smiling: "Oh, gewoon... een paar problemen hier en daar oplossen."
+  6075_Dawn_Smiling: "Oh, oké. Succes dan denk ik."
+  6076_Aranea_Neutral: "En jij gaat naar huis?"
+  6077_Dawn_Smiling: "Ik ga naar huis."
+  6078_Aranea_Smiling: "Fijn, bedankt! Tot later!"
+
+  # Interaction with menu
+  6111_Dawn_Neutral_VO: "Volgens mij is het bijna tijd voor de lunchkaart."
+
+  # Interaction with rain coat
+  6211_Dawn_Neutral_VO: "Typisch, is mijn regenjas droog, regent het buiten nog steeds."
+
+  # Interaction with jukebox
+  6311_Dawn_Smiling_VO: "Ik kan best nog wat muziek luisteren voordat ik naar huis ga, toch?"
+
+  # Interaction with newspaper
+  6411_Dawn_Serious_VO: "Hmm, misschien heeft Aranea wel gelijk."
+  6412_Dawn_Neutral_VO: "Al denk ik niet dat Lilith gevaarlijk is. Ze zag er in ieder geval niet gevaarlijk uit..."
+  6413_Dawn_Neutral_VO: "Bovendien, als ze een moordenaar was, had ze me vast al meteen gisteren vermoord. Ik heb haar genoeg redenen gegeven."
+
+  # Interaction with door
+  6601_Dawn_Neutral_VO: "Ik denk dat ik dan maar naar huis ga. Zal ik naar buiten gaan?"
+  6602_Prompt_Yes: "Ga naar buiten"
+  6603_Prompt_No: "Blijf hier"
+
+
+# Table for interactive objects in chapter 6
+Chapter_6/Objects:
+  Coat: Regenjas
+  Door: Deur
+  Jukebox: Jukebox
+  Menu: Menukaart
+  Newspaper: Krant
+
+
+# Table for splash texts in chapter 6
+Chapter_6/Splash:
+  NextMorning: "De volgende ochtend..."
+
+
+# Table for dialogue in chapter 7
+Chapter_7/Dialogue:
+  # Dawn comes utside
+  7001_Dawn_Angry_VO: "Ugh, twee stappen buiten en ik ben alweer doorweekt!"
+  7002_Dawn_Serious_VO: "Laat ik maar snel naar huis gaan."
+
+  # Interaction with bookstore
+  7101_Dawn_Smiling_VO: "De beste boekenwinkel in Ceylynn als je het mij vraagt. Maar dat is makkelijk praten als je er zelf werkt."
+  7102_Dawn_Smiling_VO: "Bovendien is Minke de beste werkgever die er is!"
+  7103_Dawn_Neutral_VO: "Het is hoog tijd dat ik wat nieuwe boeken haal."
+  7104_Dawn_Smiling_VO: "Van Minke mag ik haar boeken altijd thuis lezen en daarna terugbrengen als ze onbeschadigd zijn."
+  7105_Dawn_Serious_VO: "Maar de laatste tijd had ik het zo druk met schaatsen dat ik weinig tijd had om te lezen."
+  7106_Dawn_Smiling_VO: "Vandaag is de boekenwinkel gesloten, maar een andere keer ga ik graag even naar binnen!"
+
+  # Interaction with diner
+  7201_Dawn_Puzzled_VO: "Daar kom ik net vandaan."
+  7202_Dawn_Smiling_VO: "Mae's Place zit er echt al zo lang ik me kan herinneren. Het gaat ook nooit meer weg, hoop ik!"
+  7203_Dawn_Smiling_VO: "En Lena is zeker weten de beste gastvrouw van Ceylynn!"
+
+  # Interaction with restaurant
+  7301_Dawn_Serious_VO: "Ik heb gehoord dat dit best een goed visrestaurant is, zelfs een van de beste in de stad, maar ook ontzettend duur."
+  7302_Dawn_Neutral_VO: "Het restaurant is nu nog niet open, en zelfs al zou het open zijn, dan had ik het geld niet om hier te eten."
+  7303_Dawn_Neutral_VO: "Het ziet er wel uit als een gezellige plek. Misschien moet ik gaan sparen om er een keertje met Aranea langs te gaan."
+
+  # Interaction with grocery store
+  7401_Dawn_Serious_VO: "Het ziet er allemaal heerlijk uit! Maar ik heb nu niet dringend iets nodig."
+
+  # Lilith appears
+  7003_Dawn_Puzzled_VO: "Huh, is dat nou--?"
+  7004_Dawn_Shocked_VO: "Ja, het is Lilith! Snel, ik moet me verstoppen!"
+  7005_Dawn_Shocked_VO: "Zie je wel! Haar vleugels flikkeren echt! Ik wist het! Ze is echt een fee!"
+  7006_Dawn_Shocked_VO: "Oké, oké, dit is oké. Dit is helemaal oké. Volgens mij heeft ze me nog niet gezien..."
+  7007_Dawn_Puzzled_VO: "Misschien kan ik met haar..."
+  7008_Dawn_Puzzled_VO: "Nee, ik heb het beloofd aan Aranea--"
+  7009_Dawn_Angry_VO: "Ik heb helemaal niks beloofd aan Aranea! Ik heb alleen maar gezegd dat ik naar huis zou gaan..."
+  7010_Dawn_Serious_VO: "Trouwens, hoe gevaarlijk kan het zijn? Het is klaarlichte dag!"
+  7011_Dawn_Puzzled_VO: "Als ze al een moordenaar was, dan zou ze dat nooit zo openlijk laten zien, toch?"
+  7012_Dawn_Serious_VO: "Ze ziet er trouwens best verdrietig uit... Ik hoop niet dat ze nog overstuur is na wat ik gisteren heb gezegd."
+  7013_Dawn_Serious_VO: "Voor iemand die de schaatswedstrijd heeft gewonnen, ziet ze er in ieder geval niet heel vrolijk uit."
+  7014_Dawn_Neutral_VO: "Excuses aanbieden kan geen kwaad, toch?"
+  7015_Dawn_Shocked_VO: "Nee, ze is verdwenen! Volgens mij zag ik haar die steeg in gaan."
+  7016_Dawn_Serious_VO: "Ik moet haar vinden, het kan me niet schelen wat Aranea zegt."
+  7017_Dawn_Serious_VO: "Lilith verdient mijn verontschuldigingen. Als ik haar wat beter leer kennen, wil ze me misschien wel helpen."
+
+  # Interaction with stairs
+  7501_Dawn_Neutral_VO: "Zal ik achter Lilith aan gaan?"
+  7502_Prompt_Yes: "Volg Lilith"
+  7503_Prompt_No: "Nog niet"
+
+
+# Table for interactive objects in chapter 7
+Chapter_7/Objects:
+  Bookstore: Minkes boekenwinkel
+  Diner: Mae's Place
+  Grocery: Supermarkt
+  Restaurant: O Sonho Carthisko
+  Stairs: Trappen
+
+
+# Table for dialogue in chapter 8
+Chapter_8/Dialogue:
+  # Dawn enters the haven
+  8001_Dawn_Shocked: "Wauw!"
+  8002_Dawn_Shocked: "Dit is... Ik heb nog nooit zoiets moois gezien..."
+  8003_Dawn_Serious_VO: "Daar is Lilith. Zal ik haar aandacht trekken?"
+  8004_Prompt_Yes: "Trek Liliths aandacht"
+  8005_Prompt_No: "Nog niet"
+  8006_Dawn_Serious_VO: "Het is nu of nooit, Dawn. Je bent niet voor niets achter haar aan gegaan."
+  8007_Dawn_Smiling: "Ahem..."
+  8008_Lilith_Shocked: "Wie...? Oh, jij..."
+  8009_Dawn_Shy: "Hoi, ik, eh..."
+  8010_Lilith_Upset: "Ja?"
+  8011_Dawn_Shy: "Ik wilde--"
+  8012_Lilith_Upset: "Mij achtervolgen om vervolgens nog meer naar me te schreeuwen? Heb je niet al genoeg gezegd?"
+  8013_Dawn_Serious: "Kijk, het spijt me van gisteren. Je kwam alleen maar langs om met me te praten. Het was gemeen om zo naar je uit te vallen."
+  8014_Lilith_Sad: "Ja, dat was het zeker."
+  8015_Dawn_Sad: "..."
+  8016_Lilith_Serious: "Misschien had ik ook niet mee moeten doen met de wedstrijd. Dat was niet echt eerlijk van me."
+  8017_Dawn_Smiling: "Nee, nee, je was juist heel goed! En ik begrijp het wel, ik... mocht zelf eigenlijk ook niet mee doen."
+  8018_Dawn_Sad: "Maar dat heb ik wel gedaan, dus ik snap dat jij dat ook deed. Het spijt me echt dat ik zo lelijk tegen je deed."
+  8019_Lilith_Smiling: "Dank je, maar ik begrijp het, echt."
+  8020_Lilith_Smiling: "Je bent niet de eerste, en zal zeker niet de laatste zijn die zo tegen me uitvalt."
+  8021_Lilith_Sad: "Ik schijn dat effect op mensen te hebben..."
+  8022_Dawn_Sad: "Lilith, ik--"
+  8023_Lilith_Smiling: "Maar je bent wel de eerste die sorry komt zeggen. Dat waardeer ik heel erg."
+  8024_Lilith_Neutral: "Het liefst zou ik willen zeggen dat je woorden me niks deden, maar ze deden wel pijn."
+  8025_Dawn_Neutral: "Ik meende het niet..."
+  8026_Lilith_Neutral: "Echt? Want volgens mij kwamen ze wel ergens vandaan."
+  8027_Dawn_Shy: "Ik denk dat... je weet wel..."
+  8028_Dawn_Sad: "Iedereen is altijd bang voor mij omdat ik een staart heb, en ze denken dat ik een fee ben."
+  8029_Dawn_Serious: "En dan kom jij ineens opdagen en niemand is bang. Iedereen klapt voor jou, maar mij gaan ze alleen maar uit de weg omdat ze bang zijn."
+  8030_Lilith_Smiling: "Ik vind jou niet eng."
+  8031_Dawn_Smiling: "Nee, natuurlijk niet!"
+  8032_Lilith_Puzzled: "Hoe bedoel je?"
+  8033_Dawn_Smiling: "Jij bent een fee. Eén aanraking en ik ben morsdood. Waarom zou je in hemelsnaam bang voor me zijn?"
+  8034_Lilith_Upset: "Het is heus niet waar dat álles wat ik aanraak dood gaat!"
+  8035_Lilith_Upset: "Als je daar zo bang voor was, waarom heb je me dan sowieso gevolgd?"
+  8036_Lilith_Upset: "Trouwens, hybrids schijnen ook prima in staat te zijn om anderen te vermoorden!"
+  8037_Dawn_Shocked: "..."
+  8038_Lilith_Shy: "Sorry, ik ben gewoon een beetje gespannen..."
+  8039_Dawn_Smiling: "Haha!"
+  8040_Lilith_Puzzled: "Wat is er?"
+  8041_Dawn_Smiling: "Sorry, maar ik snap niet dat iemand met jouw soort magie gespannen kan zijn..."
+  8042_Dawn_Smiling: "En zeker niet op een plek als deze."
+  8043_Lilith_Smiling: "Wat, het toevluchtsoord?"
+  8044_Dawn_Puzzled: "Is dat wat dit is?"
+  8045_Lilith_Smiling: "Ongeveer ja. Is dit de eerste keer dat je hier bent?"
+  8046_Dawn_Smiling: "Ik woon al mijn hele leven in Ceylynn en ik heb nog nooit eerder over deze plek gehoord."
+  8047_Lilith_Smiling: "Gek voorstel... maar eh, ik ben ook een beetje gek..."
+  8048_Lilith_Smiling: "Maar lijkt het je wat als ik je een rondleiding geef?"
+  8049_Dawn_Smiling: "Nou... dat lijkt me eigenlijk best leuk!"
+  8050_Lilith_Enthusiastic: "Yay! Het verbaast me dat je nooit eerder van het toevluchtsoord heb gehoord. Het ligt midden in de stad."
+  8051_Dawn_Neutral: "Het is niet dat het met bordjes staat aangegeven, ofzo..."
+  8052_Lilith_Smiling: "Natuurlijk niet, gekkie! Maar jij bent net als ik, toch?"
+  8053_Dawn_Puzzled: "Hoe bedoel je?"
+  8054_Lilith_Neutral: "Nou, jij hebt toch ook magie? Het toevluchtsoord is alleen toegankelijk voor magische wezens."
+  8055_Dawn_Puzzled: "Eh, voor zover ik weet heb ik geen--"
+  8056_Lilith_Puzzled: "Huh?"
+  8057_Dawn_Smiling: "Echt! Ik zou toch heus wel weten als ik magie had."
+  8058_Lilith_Smiling: "Wacht, je weet niks over de magie van hybrids?"
+  8059_Lilith_Enthusiastic: "Kom, ik breng je naar iemand die het uit kan leggen. Kom je met me mee?"
+  8060_Dawn_Neutral_VO: "Zal ik meegaan met Lilith?"
+  8061_Prompt_Yes: "Volg Lilith"
+  8062_Prompt_No: "Blijf hier"
+  8063_Dawn_Puzzled_VO: "Ik? Magie? Waar heeft ze het over?"
+  8064_Dawn_Puzzled_VO: "Hmm..."
+  8065_Dawn_Smiling_VO: "Zo lang ik voorzichtig ben, kan het denk ik geen kwaad om met haar mee te gaan."
+  8066_Prompt: |-
+    Gefeliciteerd! Je hebt de demo van Invisible Wings afgerond!
+
+    Je hebt Dawn ontzettend goed geholpen, maar ze heeft nog een lange weg te gaan. Met jouw hulp kan ook de rest van het verhaal verwezenlijkt worden en kun je dit avontuur samen met Dawn, Lilith en Aranea voortzetten! We gaan nog niets verklappen, maar er staan hen nog een hoop verrassingen te wachten!

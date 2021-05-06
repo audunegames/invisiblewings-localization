@@ -1,0 +1,747 @@
+# English locale for Invisible Wings
+# Created by Eva van der Meer and Danae Dekker
+
+# The ISO 639-1 code of the locale
+# See https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes for a list
+code: en
+
+# The Steam API language code of the locale
+# See https://partner.steamgames.com/doc/store/localization#supported_languages for a list
+steamCode: english
+
+# The English name of the locale
+displayName: English
+
+# The native name of the locale, as displayed in the options menu in the game
+nativeName: English
+
+---
+
+# Table for menu elements
+Menu:
+  Yes: Yes
+  No: No
+  Next: Next
+  Previous: Previous
+  Apply: Apply
+  Back: Back
+  Close: Close
+
+
+# Table for main menu elements
+Menu/MainMenu:
+  Play: Start
+  Resume: Resume
+  Manual: Manual
+  Options: Options
+  Credits: Credits
+  Quit: Leave
+  QuitConfirmation: Are you sure you want to leave the game?
+  QuitToMenu: Main menu
+  QuitToMenuConfirmation: Are you sure you want to return to the main menu? All of your progress in the game will be lost!
+
+
+# Table for options menu elements
+Menu/OptionsMenu:
+  # Settings
+  Settings: Settings
+  SettingsLanguage: Interface language
+  SettingsAudioLanguage: Audio language
+  SettingsAutoReadMode: Automatic reading mode
+  SettingsAutoReadModeDisabled: Disabled
+  SettingsAutoReadModeFast: Fast (0.5 seconds)
+  SettingsAutoReadModeMedium: Medium (1 second)
+  SettingsAutoReadModeSlow: Slow (2 seconds)
+
+  # Display
+  Display: Display
+  DisplayResolution: Resolution
+  DisplayFullScreenMode: Fullscreen mode
+  DisplayFullScreenModeExclusiveFullscreen: Exclusive fullscreen
+  DisplayFullScreenModeFullscreenWindow: Fullscreen window
+  DisplayFullScreenModeWindowed: Windowed
+
+  # Audio
+  Audio: Audio
+  AudioMusicLevel: Music
+  AudioDialogueLevel: Dialogue
+  AudioSoundEffectsLevel: Sound effects
+
+
+# Table for the manual
+Menu/Manual:
+  Page1: |-
+    <size="36">Welcome</size>
+
+    This guide is intended to get you familiar with the controls of Invisible Wings!
+
+    Note that <b>progress isn't saved during the game</b>! This demo of Invisible Wings is intended to play in one sitting. A full playthrough takes approximately 45 minutes.
+
+    Also note that Invisible Wings <b>contains implicit references to murder and self-harm</b>, which may be content not suited for everyone. Player discretion is advised.
+  Page2: |-
+    <size="36">Controls</size>
+
+    Invisible Wings is a visual novel and is primarily focused on dialogue. To continue to the next dialogue, either use the <b>left mouse button</b> or press <b>ENTER</b> or <b>SPACE</b> on the keyboard or the <b>submit button</b> on the controller.
+
+    At some moments in the game you can interact with objects in the scene. To choose an object to interact with, move the mouse or use the <b>left analog stick</b> on the controller. When you have selected an object, use the <b>left mouse button</b>, press <b>ENTER</b> or <b>SPACE</b> on the keyboard or the <b>submit button</b> on the controller to interact with it.
+
+    You can pause the game at any time by pressing <b>ESC</b> on the keyboard or the <b>menu button</b> on the controller. In the pause menu you can read this manual, adjust the game options, or return to the main menu.
+  Page3: |-
+    <size="36">Navigation through menus</size>
+
+    To navigate through windows and menus, move the mouse, press the <b>ARROW KEYS</b> on the keyboard, or use the <b>left analog stick</b> on the controller. Use the <b>left mouse button</b> or press <b>ENTER</b> or <b>SPACE</b> on the keyboard or the <b>submit button</b> on the controller to activate a button.
+
+    To adjust the value of selection controls or faders, click on the arrows of the selection control or at a position on the fader, press the <b>ARROW KEYS</b> or <b>PAGE UP</b> and <b>PAGE DOWN</b> on the keyboard, or use the <b>left analog stick</b> or the <b>left and right shoulder buttons</b> on the controller.
+
+    To navigate in a reader window, such as this window, click the buttons in the window, press <b>PAGE UP</b> and <b>PAGE DOWN</b> on the keyboard or the <b>left and right shoulder buttons</b> on the controller to navigate through the pages, or press <b>BACKSPACE</b> on the keyboard or the <b>cancel button</b> on the controller to close the window.
+  Page4: |-
+    <size="36">Technical support</size>
+
+    Are you stuck somewhere or have you encountered a bug? Feel free to contact Audune Games via email at <b>support@audune.com</b> or via one of our social media channels.
+
+
+# Table for credits
+Menu/Credits:
+  Page1: |-
+    <size="36">Created by</size>
+
+    <b>Danae Dekker</b>
+    creative director, game development, audio design, music
+
+    <b>Maricu Mana</b>
+    character and environment design
+
+    <b>Eva van der Meer</b>
+    script writing
+  Page2: |-
+    <size="36">With the voice talents of</size>
+
+    <b>Leader Looi</b>
+    Dawn, female newsreader
+
+    <b>Katherine Tole</b>
+    Aranea, little girl
+
+    <b>Jessica Spencer</b>
+    Lilith, little boy
+
+    <b>Martijn Weber</b>
+    male newsreader, announcer
+  Page3: |-
+    <size="36">Special thanks to</size>
+
+    Alexis Orellana, Elijah Gabriel, Maarten Oud, Volmer Montsma
+
+    <size="36">Thanks to</size>
+
+    Amber Veerman, Bastiaan van Bentum, Ciska Vriezenga, Greg Candel, Stijn de Koning, Than van Nispen tot Pannerden, Thomas van Rossum
+
+    <size="36">Additional sound effects</size>
+
+    caquet (freesound.org), giddster (freesound.org), InspectorJ (freesound.org), jimruss68 (freesound.org), kyles (freesound.org), ReiyaManor (freesound.org), Sandermotions (freesound.org), The Unfinished (99sounds.org)
+
+
+# Table for character names
+Characters:
+  Dawn: Dawn
+  Lilith: Lilith
+  Aranea: Aranea
+  Girl: Girl
+  Boy: Boy
+  Butterfly: Butterfly
+  FemaleNewsreader: Newsreader
+  MaleNewsreader: Newsreader
+  Announcer: Announcer
+
+
+# Table for hints
+Hints:
+  ClickOnObjects: "Click on objects to let Dawn interact with them"
+  ClickToContinueDialogue: "Click or press the submit button to continue to the next dialogue"
+
+
+# Table for dialogue in chapter 1
+Chapter_1/Dialogue:
+  # Nightmare
+  1001_Girl_VO: "Hahaha! Dawn is a faerie! No parent is ever going to want her!"
+  1002_Boy_VO: "Hey, look, it's Dawn, the freak!"
+  1003_Girl_VO: "Hahaha!"
+  1004_Boy_VO: "Oh, are those tears? Did we make you cry, Dawn?"
+  1005_Girl_VO: "Just drown in them, Dawn! Just like you and all those other faeries drown, burn, and kill everyone."
+  1006_Dawn_Upset_VO: "I-- I'm not a faerie!"
+  1007_Girl_VO: "“I'm not a faerie!” You should hear yourself. No wonder no one wants to adopt you."
+  1008_Dawn_Upset_VO: "Please stop! Just leave me alone!"
+  1009_Boy_VO: "We'll never leave you alone, Dawn. Your species doesn't deserve any better!"
+  1010_Girl_VO: "Look around you, Dawn. A house full of orphans, children of humans, all because your species exists. Because you exist. Filthy hybrid!"
+  1011_Boy_VO: "Hahaha!"
+  1012_Dawn_Shocked_VO: "No!"
+
+  # Dawn wakes up
+  1013_Dawn_Shocked: "No, please!"
+  1014_Dawn_Sad: "..."
+  1015_Dawn_Neutral: "It was a dream, only a dream..."
+  1016_Dawn_Neutral: "..."
+  1017_Dawn_Puzzled: "And... what is that fluttering? I wouldn't be surprised if that sound keeps me awake."
+  1018_Dawn_Puzzled: "Huh?"
+  1019_Dawn_Smiling: "Hey beauty, how did you come in?"
+  1020_Butterfly: "..."
+  1021_Dawn_Smiling: "Haha! Well, what were you thinking, Dawn? It's not like butterflies can talk!"
+  1022_Butterfly: "..."
+  1023_Dawn_Smiling: "Normally I'm not that big a fan of wings, but yours are very beautiful!"
+  1024_Dawn_Smiling: "Come, I'll open the window for you. But be careful outside, little one!"
+  1025_Dawn_Serious_VO: "I really need some more sleep. I have to work early and I need all the energy I can get for my skating performance tonight."
+  1026_Dawn_Neutral_VO: "But this nightmare is still fresh in my mind."
+  1027_Dawn_Neutral_VO: "I think I might need some distraction to calm me down a bit..."
+
+  # Interction with window
+  1101_Dawn_Smiling_VO: "Ceylynn is such a stunning city at night. All those lights are so beautiful..."
+  1102_Dawn_Smiling_VO: "I'm really happy that I live in Ceylynn. I think a big city like this is as safe as it can get for a hybrid."
+
+  # Interaction with diary
+  1201_Dawn_Diary_VO: |-
+    <size="36">22nd of New Beginning</size>
+
+    After much hesitation, I finally enlisted for the regional figure skating competition! There are actually special conditions to join if you have... you know... a tail. But I don't want to join as a hybrid. I want to join as a human.
+  1202_Dawn_Diary_VO: |-
+    <size="36">16th of Senith's Month</size>
+
+    Wow, I just discovered I haven't written for a long time. Anyways, today was a wonderful day, much unlike yesterday.
+
+    My tail was hurting because I've tucked it away too tight for a few days, so I decided to let that thing hang for once. Just a bit of rest and back into routine tomorrow, I thought. Never again! I know not everyone is staring, but it does feel like that. It feels like my tail is the only thing they see when they're looking at me. Like that's all that matters about me...
+
+    But today was great! It was a bit cold, but for once I didn't mind. Extra layers of clothing to hide under, haha!
+  1203_Dawn_Diary_VO: |-
+    <size="36">11th of Light's Blooming</size>
+
+    Another huge gap in my diary. I'm starting to get the idea that I only write when I'm stressed out. In a way that isn't a bad sign. I mean, luckily I'm not writing every day if that's the case!
+
+    Next week is the regional contest and actually I'm getting quite excited for it!
+  1204_Dawn_Diary_VO: |-
+    <size="36">12th of Light's Blooming</size>
+
+    Can I take back the things I wrote yesterday? Although I'm excited for the competition, I'm starting to feel more and more nervous as well!
+  1205_Dawn_Diary_VO: |-
+    <size="36">20th of Light's Blooming</size>
+
+    There was a beautiful butterfly in my room in the middle of the night! Its wings were really stunning, even though I myself would absolutely never want to have wings.
+
+    I'm not superstitious, but I think that butterfly was a good sign. I'm getting better at tucking my tail before I go skating. I'll have to do it without the help of Aranea for the first time today, but I'm sure I'll manage!
+
+  # Interaction with flyer
+  1301_Dawn_Flyer_VO: "It reads: “Give hybrids a chance in the fight against evil!”"
+  1302_Dawn_Serious_VO: "It's good Aranea has gone into politics. She always wants the best for hybrids and humans."
+  1303_Dawn_Neutral_VO: "That “evil” Aranea is talking about are the faeries."
+  1304_Dawn_Neutral_VO: "In the media, you usually hear stories about humans who are killed by faeries, but never anything about hybrids."
+  1305_Dawn_Neutral_VO: "Even if they're also victims, and maybe even more."
+  1306_Dawn_Puzzled_VO: "But there are faeries being killed by humans and hybrids as well. How could you defend that?"
+  1307_Dawn_Smiling_VO: "It's very noble that Aranea is committed to this. I wouldn't be able to do this myself."
+
+  # Interaction with radio
+  1401_FemaleNewsreader: "--that the second part of the regional figure skating competition is held tonight!"
+  1402_FemaleNewsreader: "It promises to be an exciting competition, certainly because the number of contestants this year is higher than normal!"
+  1403_MaleNewsreader: "Thanks a lot, Manja! We'll open this hour with a piece of music by The Bug Boys. Enjoy!"
+  1404_Dawn_Smiling_VO: "That certainly didn't calm me down!"
+  1405_Dawn_Smiling_VO: "There's a lot of competition indeed, but I'm sure I'm ready for this!"
+  1406_Dawn_Serious_VO: "That's enough music I suppose."
+
+  # Interaction with clock
+  1501_Dawn_Serious_VO: "Only six hours until my alarm goes off again..."
+  1502_Dawn_Serious_VO: "Tomorrow I have to work early in the book store."
+
+  # Interaction with skates
+  1601_Dawn_Smiling_VO: "My most precious possession!"
+  1602_Dawn_Smiling_VO: "I saved for months to buy these, and I was lucky they went on sale just before I went to the store!"
+  1603_Dawn_Smiling_VO: "I have never skated a performance on any other skates."
+  1604_Dawn_Smiling_VO: "Every competition is making me quite nervous, but I always look forward to them as well!"
+  1605_Dawn_Smiling_VO: "I've trained for months with Aranea, so I think I'm good for now!"
+
+  # Interaction with photo
+  1701_Dawn_Serious_VO: "Aranea and I met even before the orphanage was renovated."
+  1702_Dawn_Smiling_VO: "Aranea was the only hybrid in the home before I came there. It clicked immediately between us!"
+  1703_Dawn_Serious_VO: "No one wanted anything to do with you if you're a hybrid. And that makes sense in retrospect."
+  1704_Dawn_Serious_VO: "Most children there became orphans because of the deeds of a faerie."
+  1705_Dawn_Serious_VO: "Children came and went as time went by, but the two of us always stuck together in the house."
+  1706_Dawn_Smiling_VO: "I used to look up to Aranea, maybe I secretly still do. She really feels like a big sister."
+  1707_Dawn_Smiling_VO: "There's no one who ever protected me besides Aranea. After all, we do have quite a lot in common."
+  1708_Dawn_Serious_VO: "Aranea never tells a lot about how her parents died, only that the rumours are correct."
+  1709_Dawn_Serious_VO: "That faeries are dangerous and we must stay away from them."
+  1710_Dawn_Serious_VO: "Actually I'm not that afraid of faeries, but that's easy to say when you never met one yourself."
+  1711_Dawn_Puzzled_VO: "But if they really were that murderous, why haven't they already killed all of Ceylynn?"
+
+  # Interaction with bed
+  1801_Dawn_Neutral_VO: "I think it's wise to get some more sleep."
+  1802_Prompt_Yes: "Go back to bed"
+  1803_Prompt_No: "Not yet"
+
+
+# Table for interactive objects in chapter 1
+Chapter_1/Objects:
+  Bed: Bed
+  Clock: Clock
+  Diary: Dawn's diary
+  Door: Door
+  Flyer: Aranea's flyer
+  Photo: Photo
+  Radio: Portable radio
+  Skates: Figure skates
+  Window: Window
+
+
+# Table for dialogue in chapter 2
+Chapter_2/Dialogue:
+  # Aranea helps Dawn with tucking her tail
+  2001_Dawn_UpsetAtTail: "Come on! Just work with me for once!"
+  2002_Aranea_Smiling: "Dawn? Are you okay?"
+  2003_Dawn_Smiling: "Aranea! Thank Ileth you're here!"
+  2004_Aranea_Smiling: "Of course I am!"
+  2005_Aranea_Smiling: "Do you feel confident about this?"
+  2006_Dawn_Sad: "..."
+  2007_Aranea_Worried: "Dawn?"
+  2008_Dawn_Upset: "My stupid tail won't cooperate, I can't tuck it away properly."
+  2009_Dawn_Sad: "If they find out I have a tail, they'll disqualify me right away!"
+  2010_Aranea_Smiling: "Oh, I'm sure they won't."
+  2011_Dawn_Sad: "Are you sure about that?"
+  2012_Aranea_Puzzled: "Hmm..."
+  2013_Aranea_Puzzled: "Isn't this whole thing about how well you can skate?"
+  2014_Aranea_Serious: "Besides, your tail is a part of you, Dawn."
+  2015_Aranea_Serious: "You can't live without it, just as you can't live without your legs."
+  2016_Dawn_Sad: "I appreciate your comment, Aranea..."
+  2017_Dawn_Crying: "But everytime I see that tail, I think about where it came from and how I don't want to be associated with that."
+  2018_Aranea_Neutral: "Sorry, I understand."
+  2019_Aranea_Smiling: "Also things aren't about what I think right now, it's all about you."
+  2020_Aranea_Smiling: "Come on, let me help you."
+  2021_Aranea_Smiling: "Take your skates, so we can put them on as well."
+
+  # After interaction with skates
+  2022_Aranea_Smiling: "Look at you. Nothing to see anymore!"
+  2023_Dawn_Smiling: "I really don't know where I would be without you, Aranea."
+  2024_Dawn_Smiling: "I thought you wouldn't come, you should be at your demonstration."
+  2025_Aranea_Smiling: "I had to, but now I'm here."
+  2026_Dawn_Shocked: "But your protest--"
+  2027_Aranea_Smiling: "Is less important than your competition."
+  2028_Dawn_Serious: "Then I hope you didn't come for nothing. I don't know if I can do this..."
+  2029_Aranea_Smiling: "Don't be so silly, of course you can."
+  2030_Aranea_Serious: "Besides, I think the contest is about to start, so we don't even have time to think about whether you can do it or not."
+  2031_Aranea_Smiling: "You're just going to nail this! Don't think about it, just do it."
+  2032_Dawn_Smiling: "Don't think about it, just do it!"
+
+
+# Table for interactive objects in chapter 2
+Chapter_2/Objects:
+  Skates: Figure skates
+
+
+# Table for splash texts in chapter 2
+Chapter_2/Splash:
+  NextEvening: "The next evening..."
+
+
+# Table for dialogue in chapter 3
+Chapter_3/Dialogue:
+  # Lilith's peformance
+  3001_Announcer: "Our second-last contestant is Lilith!"
+  3002_Announcer: "She gained 66.26 points for her short program. Give her a warm applause!"
+  3003_Dawn_Serious_VO: "So far everyone skated very well, but I think I may have a chance against them."
+  3004_Dawn_Serious_VO: "I'm curious on how this Lilith performs."
+  3005_Dawn_Shocked_VO: "Wow, that was bizarre! What an opening!"
+  3006_Dawn_Shocked_VO: "My dear, she... she is really good! That jump and this spin, that's--"
+  3007_Dawn_Puzzled_VO: "Wait... are those... wings?"
+  3008_Dawn_Puzzled_VO: "No, that's impossible..."
+  3009_Dawn_Shocked_VO: "Yes, they really are! Why haven't I seen them before?"
+  3010_Dawn_Serious_VO: "Now I can understand how she makes such high jumps, with those wings that's a piece of cake."
+  3011_Dawn_Serious_VO: "This isn't actually allowed, is it? Moreover it's very distracting."
+  3012_Dawn_Serious_VO: "But she's skating so well... That must be because of those wings."
+  3013_Dawn_Upset_VO: "But I can't believe that nobody said anything about this! Does nobody see those things flickering?"
+  3014_Announcer: "What a performance! Let's look at the score!"
+  3015_Dawn_Serious_VO: "Don't listen, Dawn. It doesn't matter what she scored, you can do this!"
+  3016_Announcer: "For her free skate Lilith gains 127.97 points!"
+  3017_Dawn_Upset_VO: "You can do this, you can do this... You're not going to lose to a faerie."
+  3018_Announcer: "That makes a total score of... 194.23 points!"
+  3019_Announcer: "This means that Lilith is currently first in line, congratulations!"
+  3020_Dawn_Upset_VO: "Stay calm, Dawn."
+  3021_Announcer: "And now on to our last contestant for the ladies' single skaters: Dawn!"
+  3022_Announcer: "She gained 67.82 for her short program. Give her an applause!"
+  3023_Dawn_Serious_VO: "Alright... You can do this, Dawn."
+  3024_Dawn_Serious_VO: "Just stay calm and don't let yourself get distracted."
+
+
+# Table for dialogue in chapter 4
+Chapter_4/Dialogue:
+  # Dawn's performance
+  4001_Dawn_Enthusiastic_VO: "I always nail this part!"
+  4002_Dawn_Enthusiastic_VO: "Yes! That couldn't have gone better!"
+  4003_Dawn_Serious_VO: "Oof, that could've been better. I'd better move on!"
+  4004_Dawn_Puzzled_VO: "Hey! There's that faerie again in the audience. And her wings are still flickering!"
+  4005_Dawn_Serious_VO: "Just continue, Dawn, just try to avoid that faerie."
+  4006_Dawn_Upset_VO: "Argh! I can't focus with that faerie around!"
+  4007_Dawn_Serious_VO: "Alright, this is my chance. If this jump works out, I'll definitely win this competition!"
+  4008_Dawn_Shocked_VO: "Oh no! My tail is coming loose!"
+  4009_Dawn_Neutral_VO: "Oof, that fall still hurts a little."
+  4010_Dawn_Puzzled_VO: "Why is this taking so long? What are the judges discussing up there?"
+  4011_Announcer: "After a brief discussion the judges have decided that Dawn unfortunately has been disqualified."
+  4012_Announcer: "It's stated clearly in the safety regulations that contestants must indicate they bear a tail..."
+  4013_Announcer: "In that way, the organization and contestant can decide on a solution for this problem together."
+  4014_Dawn_Shocked: "No! No! Please! That's not fair!"
+  4015_Dawn_Upset: "Didn't you see that--"
+  4016_Announcer: "This means that Lilith is the winner of the competition for ladies' singles! Congratulations!"
+  4017_Dawn_Upset_VO: "No way! Lilith just won! Piece of cake if you've been distracting the others..."
+
+
+# Table for dialogue in chapter 5
+Chapter_5/Dialogue:
+  # Dawn meets Lilith
+  5001_Dawn_Angry: "I knew it! I knew this was doomed to fail!"
+  5002_Dawn_Angry: "Nothing good ever happens when faeries are involved..."
+  5003_Dawn_Angry: "Especially one that tries to distract me with her flickering wings."
+  5004_Dawn_Angry: "It certainly isn't my fault that--"
+  5005_Lilith_Smiling: "Hello? Is Dawn here?"
+  5006_Dawn_Neutral: "Yes, I'm here."
+  5007_Lilith_Smiling: "I saw your performance, you're really talented!"
+  5008_Lilith_Smiling: "It's totally unjustified that they disqualified you. In my opinion, you weren't acting unsafe at all."
+  5009_Lilith_Smiling: "Personally, I think your tail is very--"
+  5010_Dawn_Shocked: "You?!"
+  5011_Dawn_Angry: "You don't have any right to have an opinion about my tail, so shut your mouth!"
+  5012_Dawn_Angry: "This is all your fault! Do you have any idea how hard I had to work to get here?"
+  5013_Dawn_Angry: "How long I've dreamt about this moment?"
+  5014_Dawn_Angry: "Just so you could sabotage me and walk away with the prize?"
+  5015_Dawn_Angry: "Do you know how embarrassing it is to lose to a faerie? Who do you think you are?"
+  5016_Lilith_Puzzled: "But--"
+  5017_Dawn_Angry: "Oh you know what I'm talking about."
+  5018_Dawn_Angry: "You and those flickering wings of yours ruined my entire performance."
+  5019_Dawn_Angry: "How am I supposed to focus with those... things distracting me, huh?"
+  5020_Lilith_Sad: "I-- I'm sorry... I didn't know you could see my wings."
+  5021_Lilith_Sad: "I didn't mean to distract you at all."
+  5022_Dawn_Angry: "No, of course you didn't."
+  5023_Dawn_Angry: "Just like you didn't mean to come talk to me afterwards just to rub your victory in my face!"
+  5024_Lilith_Shocked: "I--"
+  5025_Dawn_Angry: "Just... leave me alone!"
+  5026_Dawn_Upset: "Argh!"
+
+  # Aranea comforts Dawn
+  5027_Aranea_Neutral: "Dawn, are you alright?"
+  5028_Aranea_Worried: "Dawn?"
+  5029_Dawn_Sad: "..."
+  5030_Aranea_Worried: "Oh, Dawn..."
+  5031_Dawn_Crying: "I should have known that hiding that thing wasn't enough..."
+  5032_Aranea_Neutral: "It was the only thing we could do."
+  5033_Dawn_Crying: "But her wings, Aranea! Those things were flickering!"
+  5034_Dawn_Crying: "She's a faerie and she won!"
+  5035_Dawn_Upset: "That's not fair, is it? She shouldn't have been allowed to participate at all with those wings!"
+  5036_Aranea_Puzzled: "What wings are you talking about?"
+  5037_Dawn_Upset: "The wings of that faerie who won the contest, and whom I was arguing with moments ago."
+  5038_Aranea_Neutral: "I didn't see any wings, Dawn."
+  5039_Dawn_Upset: "You're not going to tell me that I'm imagining things?"
+  5040_Dawn_Upset: "They really were flickering! I couldn't focus on my performance anymore."
+  5041_Dawn_Shocked: "..."
+  5042_Dawn_Shocked: "What if Lilith really had no wings?"
+  5043_Dawn_Shocked: "I said such ugly things to her, Aranea!"
+  5044_Dawn_Shocked: "She just came to tell me that she was impressed by my performance."
+  5045_Dawn_Shocked: "What if she wasn't a faerie at all?"
+  5046_Aranea_Serious: "Wait, you really think she's a faerie?!"
+  5047_Aranea_Serious: "If she really is, you have a very different problem now, Dawn, and you know that yourself as well."
+  5048_Dawn_Sad: "I'm really not in the mood for a lecture, Aranea..."
+  5049_Aranea_Serious: "I'm dead serious, Dawn! Stay away from faeries! They are dangerous!"
+  5050_Aranea_Serious: "If Lilith really is a faerie and she knows who you are now, and if you offended her..."
+  5051_Aranea_Serious: "...you have a way bigger problem than this skating competition."
+  5052_Dawn_Angry: "I think that might not be so bad. There hasn't been any incident in weeks!"
+  5053_Aranea_Serious: "Except things really are that bad!"
+  5054_Aranea_Angry: "You must think before you act, Dawn! Forget my whole “just do it” thing."
+  5055_Aranea_Angry: "You're not supposed to endanger yourself!"
+  5056_Dawn_Angry: "To me, she didn't look like a murderer at all."
+  5057_Dawn_Angry: "She came to say hi and told me that she thought I skated well. That isn't how murderers act, is it?"
+  5058_Aranea_Angry: "No, not yet! But you'll think differently about that when you're burning alive just because you shook her hand!"
+  5059_Aranea_Shocked: "..."
+  5060_Aranea_Serious: "I'm sorry. I'm not making things better, am I?"
+  5061_Aranea_Serious: "I think we're both a bit upset right now, and you must be ready for some rest."
+  5062_Dawn_Smiling: "I think you may need some as well."
+  5063_Aranea_Smiling: "Yeah, I suppose I do."
+  5064_Aranea_Smiling: "Well, let's meet at Mae's tomorrow morning."
+  5065_Aranea_Smiling: "That way we can both take our time to rest and continue talking there."
+  5066_Dawn_Smiling: "Yes, that sounds like a plan. See you tomorrow!"
+
+
+# Table for dialogue in chapter 6
+Chapter_6/Dialogue:
+  # Dawn is waiting for Aranea
+  6001_Dawn_Neutral_VO: "I wonder why it's taking Aranea so long to arrive. Hopefully she won't be drenched by the time she gets here!"
+
+  # Interaction with menu
+  6101_Dawn_Smiling_VO: "I've heard the new fruit cake Lena has been baking is amazing!"
+  6102_Dawn_Smiling_VO: "I think I might try that for breakfast today."
+
+  # Interaction with rain coat
+  6201_Dawn_Neutral_VO: "It hasn't rained this much in a long time. What a contrast to that lovely spring day yesterday."
+
+  # Interaction with jukebox
+  6301_Dawn_Smiling_VO: "While I'm waiting it wouldn't hurt to listen to some music, would it?"
+  6302_Dawn_Smiling_VO: "Maybe some new singles have been released!"
+  6303_Prompt_Yes: "Listen to music"
+  6304_Prompt_No: "Cancel"
+  6305_Dawn_Neutral_VO: "That was some really nice music!"
+
+  # Interaction with newspaper
+  6401_Dawn_Serious_VO: "Hmm, what could this be?"
+  6402_Dawn_Newspaper_VO: |-
+    <size="36">Wing cutter strikes again</size>
+
+    The mysterious wing cutter took a new life last night. Their latest victim, a 23 year old faerie, was found dead a few blocks from the local mall this morning. Her body was covered in scratches and her wings have seemed to be removed violently.
+
+    The authorities are still without any leads and call to all humans, faeries and hybrids to report anything unusual.
+  6403_Dawn_Shocked_VO: "Wow. That's horrible!"
+  6404_Dawn_Upset_VO: "It's just--"
+  6405_Dawn_Upset_VO: "I'm just so done with this violence! It only causes pain, it doesn't solve anything."
+  6406_Dawn_Serious_VO: "No one deserves to be killed because of the way they were born, not even faeries."
+  6407_Dawn_Sad_VO: "Poor girl..."
+  6408_Dawn_Serious_VO: "I hope all this mud-slinging will come to a halt soon. It takes so many innocent lives of humans, hybrids, and faeries as well."
+
+  # Interaction with Aranea (65):
+  6501_Dawn_Smiling_VO: "Oh, there's Aranea. Shall I call her over?"
+  6502_Prompt_Yes: "Call Aranea"
+  6503_Prompt_No: "Not yet"
+  6504_Dawn_Waving: "Hey, Aranea!"
+  6505_Aranea_Smiling: "Hello, Dawn!"
+
+  # Dawn talks with Aranea
+  6002_Aranea_Neutral: "Did you sleep well last night?"
+  6003_Dawn_Smiling: "Yeah, surprisingly well! What about you?"
+  6004_Aranea_Neutral: "I've had better nights. But I had quite some time to think about things."
+  6005_Dawn_Enthusiastic: "So did I! I've come to the conclusion that there's only one thing I can do after what happened yesterday!"
+  6006_Aranea_Smiling: "Sign up for another skating competition?"
+  6007_Dawn_Puzzled: "Hmm..."
+  6008_Dawn_Smiling: "Alright, maybe there are two options."
+  6009_Aranea_Smiling: "So tell me!"
+  6010_Dawn_Smiling: "I have to find Lilith and apologize to her."
+  6011_Aranea_Puzzled: "Dawn?!"
+  6012_Dawn_Neutral: "Wait, let me explain, alright? So imagine Lilith really is a faerie."
+  6013_Dawn_Smiling: "That would mean she hid her wings and tail with some kind of magic, and maybe she could help me do the same!"
+  6014_Dawn_Neutral: "If she isn't a faerie and I was just seeing things, then she really deserves an apology."
+  6015_Dawn_Sad: "I was so rude to her and she just came by to say hello."
+  6016_Aranea_Serious: "Dawn, you know how I feel about this."
+  6017_Dawn_Serious: "But isn't this about how I feel about it, Aranea?"
+  6018_Aranea_Angry: "Do you ever think about the consequences your actions have for me, as your friend?"
+  6019_Dawn_Serious: "Yes, of course, but--"
+  6020_Aranea_Angry: "But what? I thought the whole reason for you to hide that tail of yours was to not become associated with the faeries."
+  6021_Aranea_Angry: "Then what in heaven's name makes you want to search for a faerie?"
+  6022_Dawn_Angry: "You don't understand, Aranea!"
+  6023_Aranea_Angry: "Then explain to me, Dawn! I really want to understand, but I just don't get it."
+  6024_Dawn_Sad: "I--"
+  6025_Dawn_Upset: "All my life I've hated myself, okay? Where I came from, what that did to the people around me..."
+  6026_Dawn_Upset: "All that senseless violence, all that pain... I never was able to do anything about that."
+  6027_Dawn_Serious: "Besides, I don't think that was supposed to be my job at all, but yours. I'm not made for politics."
+  6028_Dawn_Serious: "And I-- I don't know, it's probably stupid..."
+  6029_Aranea_Neutral: "Go on."
+  6030_Dawn_Serious: "There's nothing right about that tail. That thing has to go away, Aranea!"
+  6031_Dawn_Serious: "And anyone who looks at it can tell that I tried. The scars speak for themselves."
+  6032_Dawn_Sad: "But it never works out and I always fail and fail and fail..."
+  6033_Dawn_Upset: "And everytime I look in the mirror I am still able to see it. That-- that appendix!"
+  6034_Dawn_Upset: "It doesn't belong to me and it never will. I don't want to be a hybrid or a faerie, I just want to be a human."
+  6035_Dawn_Sad: "And I know that's impossible, but I can at least try and pretend. Do you understand?"
+  6036_Aranea_Worried: "I think so..."
+  6037_Dawn_Sad: "And I hope you also understand that if I meet someone who can solve this for me, I want to take this opportunity with both hands!"
+  6038_Dawn_Sad: "Even if that means taking a huge risk. Because I don't think I can handle this much longer..."
+  6039_Aranea_Shocked: "..."
+  6040_Aranea_Shocked: "Dawn, why have you never told me that you felt so desperate?"
+  6041_Dawn_Sad: "I just didn't want you to have more on your mind..."
+  6042_Aranea_Serious: "I need to know about these things, Dawn. So I can--"
+  6043_Dawn_Angry: "So you can what? You can't fix everything, Aranea!"
+  6044_Aranea_Neutral: "Yes, I know..."
+  6045_Dawn_Angry: "So what would you do in my case? How do you want to solve this? Because I'm open to all suggestions you have."
+  6046_Aranea_Neutral: "I..."
+  6047_Dawn_Serious: "Just what I thought. Look, I know this sounds complicated and scary to you."
+  6048_Dawn_Neutral: "If I were in your shoes, I wouldn't want you to do this either."
+  6049_Dawn_Neutral: "But you must understand I'll be very careful."
+  6050_Aranea_Worried: "You're my bestest friend, I don't think I can live without you, Dawn."
+  6051_Dawn_Smiling: "And you don't have to! I'll be fine, I promise."
+  6052_Aranea_Worried: "..."
+  6053_Dawn_Neutral: "I mean it! I don't want to hurt you, but I just have to do this for my own well-being."
+  6054_Aranea_Worried: "I beg you, Dawn. Please don't do this. It may feel difficult for now, but this is not the solution you're looking for."
+  6055_Dawn_Neutral: "Aranea..."
+  6056_Aranea_Serious: "I promise you. I'll do everything I can to help you with your tail, and I'll do everything to keep you safe."
+  6057_Aranea_Serious: "Please promise me you're not going to chase this faerie."
+  6058_Dawn_Sad: "I can't..."
+  6059_Aranea_Worried: "I beg you."
+  6060_Dawn_Sad: "..."
+  6061_Aranea_Enthusiastic: "Wait, I got it! I have connections with people who are a part of the authorities, in politics, in the city, wherever."
+  6062_Aranea_Enthusiastic: "What if I ask them to keep an eye out for Lilith and warn me if they see her?"
+  6063_Aranea_Smiling: "And I'll keep an eye out myself!"
+  6064_Dawn_Puzzled: "And then?"
+  6065_Aranea_Smiling: "If we find her, I'll go to her with someone else and figure something out."
+  6066_Dawn_Worried: "But will you be safe then?"
+  6067_Aranea_Smiling: "Me? I'll be safe and sound, I didn't take two lessons in self defense for nothing!"
+  6068_Dawn_Smiling: "Hahaha!"
+  6069_Dawn_Worried: "But it doesn't feel right to sit still and let you do all the work."
+  6070_Aranea_Smiling: "Of course you can keep an eye out as well, but please don't confront her alone."
+  6071_Aranea_Serious: "For now, go home and get some rest."
+  6072_Aranea_Neutral: "I'd love to go with you, but I have some other things to do first."
+  6073_Dawn_Neutral: "What kind of things?"
+  6074_Aranea_Smiling: "Oh, you know... just solving some issues here and there."
+  6075_Dawn_Smiling: "Oh, alright. Good luck I suppose."
+  6076_Aranea_Neutral: "And you're going home?"
+  6077_Dawn_Smiling: "I'm going home."
+  6078_Aranea_Smiling: "Good, thanks! See you later!"
+
+  # Interaction with menu
+  6111_Dawn_Neutral_VO: "I think it might be time for the lunch menu soon."
+
+  # Interaction with rain coat
+  6211_Dawn_Neutral_VO: "So typical, my coat is completely dry, but it's still raining cats and dogs outside."
+
+  # Interaction with jukebox
+  6311_Dawn_Smiling_VO: "It wouldn't hurt to listen to some music before I go home, would it?"
+
+  # Interaction with newspaper
+  6411_Dawn_Serious_VO: "Hmm, maybe Aranea is right."
+  6412_Dawn_Neutral_VO: "Although, I don't think Lilith is dangerous. At least, she didn't look dangerous..."
+  6413_Dawn_Neutral_VO: "Besides, if she is a murderer, she probably would've killed me immediately yesterday. I gave her every reason to."
+
+  # Interaction with door
+  6601_Dawn_Neutral_VO: "I think I'll be heading home then. Shall I go outside?"
+  6602_Prompt_Yes: "Go outside"
+  6603_Prompt_No: "Stay here"
+
+
+# Table for interactive objects in chapter 6
+Chapter_6/Objects:
+  Coat: Raincoat
+  Door: Door
+  Jukebox: Jukebox
+  Menu: Menu
+  Newspaper: Newspaper
+
+
+# Table for splash texts in chapter 6
+Chapter_6/Splash:
+  NextMorning: "The next morning..."
+
+
+# Table for dialogue in chapter 7
+Chapter_7/Dialogue:
+  # Dawn comes utside
+  7001_Dawn_Angry_VO: "Ugh, two steps outside and I'm soaked to the bone again!"
+  7002_Dawn_Serious_VO: "I'd better get home, quickly."
+
+  # Interaction with bookstore
+  7101_Dawn_Smiling_VO: "The best bookstore in Ceylynn if you ask me! But that's easily said when you work there."
+  7102_Dawn_Smiling_VO: "Not to mention, Minke is certainly the best employer ever!"
+  7103_Dawn_Neutral_VO: "It's about time that I collect some new books."
+  7104_Dawn_Smiling_VO: "Minke always allows me to read her books at home and return them if they're undamaged."
+  7105_Dawn_Serious_VO: "But lately I've been so occupied with skating that I haven't had much time to read."
+  7106_Dawn_Smiling_VO: "Today the bookstore is closed, but I'd love to hop in another time for sure!"
+
+  # Interaction with diner
+  7201_Dawn_Puzzled_VO: "I just came from there."
+  7202_Dawn_Smiling_VO: "Mae's Place has been there for as long as I can remember. I hope it will never go away as well!"
+  7203_Dawn_Smiling_VO: "And Lena is the best hostess of Ceylynn for sure!"
+
+  # Interaction with restaurant
+  7301_Dawn_Serious_VO: "I've heard this place is a very good fish restaurant. It may even be the best in town, but it's also super expensive."
+  7302_Dawn_Neutral_VO: "The restaurant looks closed, but even if it was open, I most certainly wouldn't have the money to eat here."
+  7303_Dawn_Neutral_VO: "It does look like a nice and cozy place. Maybe I should save up a little to go there with Aranea someday."
+
+  # Interaction with grocery store
+  7401_Dawn_Serious_VO: "It all looks so delicious! But I don't need anything now."
+
+  # Lilith appears
+  7003_Dawn_Puzzled_VO: "Huh? Isn't that--?"
+  7004_Dawn_Shocked_VO: "Yes, it's Lilith! Quick, I have to hide!"
+  7005_Dawn_Shocked_VO: "See! Her wings really are flickering! I knew it! She is a faerie!"
+  7006_Dawn_Shocked_VO: "Okay, okay, this is okay. This is fine. I think she hasn't seen me yet..."
+  7007_Dawn_Puzzled_VO: "Maybe I can talk..."
+  7008_Dawn_Puzzled_VO: "No, I promised Aranea--"
+  7009_Dawn_Angry_VO: "I didn't promise anything to Aranea! I only said that I would go home..."
+  7010_Dawn_Serious_VO: "But honestly, how dangerous can it be? It is broad daylight!"
+  7011_Dawn_Puzzled_VO: "Even if she was a murderer, she would never act upon it so openly, would she?"
+  7012_Dawn_Serious_VO: "She looks quite sad by the way... I hope she isn't that upset about what I said to her yesterday."
+  7013_Dawn_Serious_VO: "For someone who has won the skating competition, she certainly doesn't look bright."
+  7014_Dawn_Neutral_VO: "It can't hurt to apologize to her..."
+  7015_Dawn_Shocked_VO: "No, she disappeared! I think she went into that alley."
+  7016_Dawn_Serious_VO: "I have to find her, I don't care what Aranea tells me."
+  7017_Dawn_Serious_VO: "Lilith deserves my apology. Maybe she'll want to help me once when we get to know each other."
+
+  # Interaction with stairs
+  7501_Dawn_Neutral_VO: "Shall I follow Lilith?"
+  7502_Prompt_Yes: "Follow Lilith"
+  7503_Prompt_No: "Not yet"
+
+
+# Table for interactive objects in chapter 7
+Chapter_7/Objects:
+  Bookstore: Minke's bookstore
+  Diner: Mae's Place
+  Grocery: Grocery store
+  Restaurant: O Sonho Carthisko
+  Stairs: Stairs
+
+
+# Table for dialogue in chapter 8
+Chapter_8/Dialogue:
+  # Dawn enters the haven
+  8001_Dawn_Shocked: "Wow!"
+  8002_Dawn_Shocked: "This is... I've never seen something so beautiful like this..."
+  8003_Dawn_Serious_VO: "There's Lilith. Should I get her attention?"
+  8004_Prompt_Yes: "Get Lilith's attention"
+  8005_Prompt_No: "Not yet"
+  8006_Dawn_Serious_VO: "It's now or never, Dawn. You didn't follow her for nothing."
+  8007_Dawn_Smiling: "Ahem..."
+  8008_Lilith_Shocked: "Who...? Oh, you..."
+  8009_Dawn_Shy: "Hi, I, eh..."
+  8010_Lilith_Upset: "Yes?"
+  8011_Dawn_Shy: "I wanted to--"
+  8012_Lilith_Upset: "To chase me down and yell at me even more? Haven't you said enough already?"
+  8013_Dawn_Serious: "Look, I'm sorry about yesterday. You only came by to talk to me. It was rude to fall out to you."
+  8014_Lilith_Sad: "Yes, it sure was."
+  8015_Dawn_Sad: "..."
+  8016_Lilith_Serious: "Maybe I shouldn't have entered the competition at all. It was a bit unfair."
+  8017_Dawn_Smiling: "No, no, you were actually very good! And I understand, I... myself wasn't allowed to join either."
+  8018_Dawn_Sad: "But I did, so I see why you entered as well. I'm so sorry for being so ugly to you."
+  8019_Lilith_Smiling: "Thanks, but I understand, really."
+  8020_Lilith_Smiling: "You're not the first and certainly not the last person to fall out to me like that."
+  8021_Lilith_Sad: "I seem to have that effect on people..."
+  8022_Dawn_Sad: "Lilith, I--"
+  8023_Lilith_Smiling: "But you're the first who came to apologize! I appreciate that a lot."
+  8024_Lilith_Neutral: "I'd rather tell you that I wasn't touched by your words, but they did hurt."
+  8025_Dawn_Neutral: "I didn't mean it..."
+  8026_Lilith_Neutral: "Really? Because I don't think they came out of nowhere."
+  8027_Dawn_Shy: "I think that... you know..."
+  8028_Dawn_Sad: "Everyone is always afraid of me because I have a tail, and they think I'm a faerie."
+  8029_Dawn_Serious: "Then you appear and nobody is afraid. Everyone applauds for you, but all they do is avoid me and be scared."
+  8030_Lilith_Smiling: "I don't think you're scary."
+  8031_Dawn_Smiling: "No, of course not!"
+  8032_Lilith_Puzzled: "What do you mean?"
+  8033_Dawn_Smiling: "You're a faerie. One touch and I'm dead. Why for heaven's sake would you be afraid of me?"
+  8034_Lilith_Upset: "It certainly isn't true that everything I touch dies!"
+  8035_Lilith_Upset: "If you were so afraid of that, why did you follow me in the first place?"
+  8036_Lilith_Upset: "Besides, I heard that hybrids are also quite capable of killing!"
+  8037_Dawn_Shocked: "..."
+  8038_Lilith_Shy: "I'm sorry, I'm just a little tense..."
+  8039_Dawn_Smiling: "Haha!"
+  8040_Lilith_Puzzled: "What's the matter?"
+  8041_Dawn_Smiling: "Sorry, but I don't understand how someone with your kind of magic can be tense..."
+  8042_Dawn_Smiling: "And certainly not in a place like this."
+  8043_Lilith_Smiling: "What, the haven?"
+  8044_Dawn_Puzzled: "Is that what this is?"
+  8045_Lilith_Smiling: "More or less. Is this the first time you're here?"
+  8046_Dawn_Smiling: "I've lived in Ceylynn my whole life, and I've never heard about this place before."
+  8047_Lilith_Smiling: "Crazy proposal... but eh, I just am a little crazy..."
+  8048_Lilith_Smiling: "But would you like me to show you around?"
+  8049_Dawn_Smiling: "Well... that actually sounds fun!"
+  8050_Lilith_Enthusiastic: "Yay! It surprises me that you've never heard about the haven. It's in the middle of the city."
+  8051_Dawn_Neutral: "Well, it's not like it's signposted everywhere..."
+  8052_Lilith_Smiling: "Of course not, silly! But you're just like me, aren't you?"
+  8053_Dawn_Puzzled: "In what sense?"
+  8054_Lilith_Neutral: "Well, you have magic as well, right? The haven is only accessible for magical beings."
+  8055_Dawn_Puzzled: "Eh, as far as I know, I don't--"
+  8056_Lilith_Puzzled: "Huh?"
+  8057_Dawn_Smiling: "Really! I would know if I had any magic."
+  8058_Lilith_Smiling: "Wait, you don't know anything about the magic of hybrids?"
+  8059_Lilith_Enthusiastic: "Come on, I'll take you to someone who can explain. Are you coming with me?"
+  8060_Dawn_Neutral_VO: "Shall I go with Lilith?"
+  8061_Prompt_Yes: "Follow Lilith"
+  8062_Prompt_No: "Don't follow Lilith"
+  8063_Dawn_Puzzled_VO: "Magic? Me? What is she talking about?"
+  8064_Dawn_Puzzled_VO: "Hmm..."
+  8065_Dawn_Smiling_VO: "As long as I'm careful, I suppose it wouldn't hurt to go with her."
+  8066_Prompt: |-
+    Congratulations! You have finished the demo of Invisible Wings!
+
+    You've helped Dawn very well, but she still has a long way to go. With your help the rest of the story can be realized, and you can continue this adventure together with Dawn, Lilith and Aranea! We're not going to spoil anything, but there are still a lot of surprises waiting for them!
