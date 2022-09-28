@@ -128,17 +128,19 @@ Menu/Credits:
     <b>Martijn Weber</b>
     male newsreader, announcer
   Page3: |-
-    <size="36">Special thanks to</size>
+    <size="36">Closing credits</size>
 
+    <i>Translated by</i>
+    Cassandra Plagelat (French), Danae Dekker (English, Dutch), Eva van der Meer (Dutch)
+
+    <i>Special thanks to</i>
     Alexis Orellana, Elijah Gabriel, Maarten Oud, Volmer Montsma
 
-    <size="36">Thanks to</size>
-
+    <i>Thanks to</i>
     Amber Veerman, Bastiaan van Bentum, Ciska Vriezenga, Greg Candel, Stijn de Koning, Than van Nispen tot Pannerden, Thomas van Rossum
 
-    <size="36">Additional sound effects</size>
-
-    caquet (freesound.org), giddster (freesound.org), InspectorJ (freesound.org), jimruss68 (freesound.org), kyles (freesound.org), ReiyaManor (freesound.org), Sandermotions (freesound.org), The Unfinished (99sounds.org)
+    <i>Additional sound effects</i>
+    caquet, giddster, InspectorJ, jimruss68, kyles, ReiyaManor, Sandermotions, The Unfinished
 
 
 # Table for character names

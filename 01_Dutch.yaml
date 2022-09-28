@@ -128,17 +128,19 @@ Menu/Credits:
     <b>Martijn Weber</b>
     nieuwslezer, omroeper
   Page3: |-
-    <size="36">Speciale dank aan</size>
+    <size="36">Eindtitels</size>
 
+    <i>Vertaald door</i>
+    Cassandra Plagelat (Frans), Danae Dekker (Engels, Nederlands), Eva van der Meer (Nederlands)
+
+    <i>Speciale dank aan</i>
     Alexis Orellana, Elijah Gabriel, Maarten Oud, Volmer Montsma
 
-    <size="36">Met dank aan</size>
-
+    <i>Met dank aan</i>
     Amber Veerman, Bastiaan van Bentum, Ciska Vriezenga, Greg Candel, Stijn de Koning, Than van Nispen tot Pannerden, Thomas van Rossum
 
-    <size="36">Aanvullende geluidseffecten</size>
-
-    caquet (freesound.org), giddster (freesound.org), InspectorJ (freesound.org), jimruss68 (freesound.org), kyles (freesound.org), ReiyaManor (freesound.org), Sandermotions (freesound.org), The Unfinished (99sounds.org)
+    <i>Aanvullende geluidseffecten</i>
+    caquet, giddster, InspectorJ, jimruss68, kyles, ReiyaManor, Sandermotions, The Unfinished
 
 
 # Table for character names
