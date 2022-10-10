@@ -23,14 +23,16 @@ Menu:
   No: No
   Next: Next
   Previous: Previous
-  Apply: Apply
   Back: Back
   Close: Close
 
 
 # Table for main menu elements
 Menu/MainMenu:
+  Continue: Continue
   Play: Start
+  StartOver: Start over
+  StartOverConfirmation: Are you sure you want to start the story from the beginning? Your previous progress will be deleted.
   Resume: Resume
   Manual: Manual
   Options: Options
@@ -38,7 +40,7 @@ Menu/MainMenu:
   Quit: Leave
   QuitConfirmation: Are you sure you want to leave the game?
   QuitToMenu: Main menu
-  QuitToMenuConfirmation: Are you sure you want to return to the main menu? All of your progress in the game will be lost!
+  QuitToMenuConfirmation: Are you sure you want to return to the main menu? Progress since the beginning of this scene won't be saved.
 
 
 # Table for options menu elements
@@ -60,6 +62,7 @@ Menu/OptionsMenu:
   DisplayFullScreenModeExclusiveFullscreen: Exclusive fullscreen
   DisplayFullScreenModeFullscreenWindow: Fullscreen window
   DisplayFullScreenModeWindowed: Windowed
+  DisplayApply: Apply display settings
 
   # Audio
   Audio: Audio
@@ -75,9 +78,7 @@ Menu/Manual:
 
     This guide is intended to get you familiar with the controls of Invisible Wings!
 
-    Note that <b>progress isn't saved during the game</b>! This demo of Invisible Wings is intended to play in one sitting. A full playthrough takes approximately 45 minutes.
-
-    Also note that Invisible Wings <b>contains implicit references to murder and self-harm</b>, which may be content not suited for everyone. Player discretion is advised.
+    Note that Invisible Wings <b>contains implicit references to murder and self-harm</b>, which may be content not suited for everyone. Player discretion is advised.
   Page2: |-
     <size="36">Controls</size>
 
@@ -140,7 +141,7 @@ Menu/Credits:
     Amber Veerman, Bastiaan van Bentum, Ciska Vriezenga, Greg Candel, Stijn de Koning, Than van Nispen tot Pannerden, Thomas van Rossum
 
     <i>Additional sound effects</i>
-    caquet, giddster, InspectorJ, jimruss68, kyles, ReiyaManor, Sandermotions, The Unfinished
+    caquet, giddster, InspectorJ, jimruss68, klankbeeld, kyles, ReiyaManor, Sandermotions, The Unfinished
 
 
 # Table for character names
