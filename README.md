@@ -1,6 +1,6 @@
-# Localization resources for Invisible Wings
+# Localization resources for Invisible Wings: Chapter One
 
-This repository contains the locale files that are used in [Invisible Wings](https://invisiblewingsgame.com/), a narrative adventure game about Dawn, a young woman of faerie descent, and her quest for answers to her own identity and self-acceptance.
+This repository contains the locale files that are used in [Invisible Wings: Chapter One](https://invisiblewingsgame.com/), a visual novel about Dawn, a young woman of faerie descent, and her quest for answers to her own identity and self-acceptance.
 
 ## Structure of a locale file
 

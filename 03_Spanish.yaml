@@ -1,0 +1,752 @@
+# Peninsular Spanish locale for Invisible Wings: Chapter One
+# Created by Eric Montiel López
+
+# The ISO 639-1 code of the locale
+# See https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes for a list
+code: es
+
+# The Steam API language code of the locale
+# See https://partner.steamgames.com/doc/store/localization#supported_languages for a list
+steamCode: spanish
+
+# The English name of the locale
+displayName: Spanish - Spain
+
+# The native name of the locale, as displayed in the options menu in the game
+nativeName: Español - España
+
+---
+
+# Table for menu elements
+Menu:
+  Yes: Si
+  No: No
+  Next: Siguiente
+  Previous: Anterior
+  Back: Atrás
+  Close: Cerrar
+
+
+# Table for main menu elements
+Menu/MainMenu:
+  Continue: Continuar
+  Play: Empezar la historia
+  StartOver: Empezar de nuevo
+  StartOverConfirmation: ¿Estás seguro de que quieres volver a empezar la historia desde el principio? Todo el progreso que habías hecho se borrará.
+  Resume: Volver a la partida
+  Manual: Manual
+  Options: Opciones
+  Credits: Créditos
+  Quit: Salir
+  QuitConfirmation: ¿Estás seguro de que quieres salir del juego?
+  QuitToMenu: Menú principal
+  QuitToMenuConfirmation: ¿Estás seguro de que quieres volver al menú principal? El progreso que hayas hecho desde el principio de esta escena se borrará.
+
+
+# Table for options menu elements
+Menu/OptionsMenu:
+  # Settings
+  Settings: Configuración
+  SettingsLanguage: Idioma de la interfaz
+  SettingsAudioLanguage: Idioma de las voces
+  SettingsAutoReadMode: Modo de lectura automática
+  SettingsAutoReadModeDisabled: Desactivado
+  SettingsAutoReadModeFast: Rápido (0.5 segundos)
+  SettingsAutoReadModeMedium: Medio (1 segundos)
+  SettingsAutoReadModeSlow: Lento (2 segundos)
+
+  # Display
+  Display: Pantalla
+  DisplayResolution: Resolución
+  DisplayFullScreenMode: Modo de pantalla
+  DisplayFullScreenModeExclusiveFullscreen: Pantalla completa
+  DisplayFullScreenModeFullscreenWindow: Ventana sin bordes
+  DisplayFullScreenModeWindowed: Ventana
+  DisplayApply: Aplicar configuración de pantalla
+
+  # Audio
+  Audio: Audio
+  AudioMusicLevel: Música
+  AudioDialogueLevel: Diálogos
+  AudioSoundEffectsLevel: Efectos de sonido
+
+
+# Table for the manual
+Menu/Manual:
+  Page1: |-
+    <size="36">Bienvenido</size>
+
+    ¡Esta guía está pensada para que te acostumbres a los controles de Invisible Wings: Chapter One!
+
+    Ten en cuenta que Invisible Wings: Chapter One <b>contiene referencias implícitas de asesinatos y autolesiones</b>, contenido que puede ser inapropiado para algunos. Se recomienda discreción por parte del jugador.
+  Page2: |-
+    <size="36">Controles</size>
+
+    Invisible Wings: Chapter One es una novela visual y está enfocada en el diálogo. Para avanzar al siguiente diálogo, usa el <b>botón izquierdo del ratón</b> o pulsa <b>ENTER</b> o <b>ESPACIO</b> en el teclado o el <b>botón de confirmación</b> en el mando.
+
+    En algunos momentos del juego podrás interactuar con objetos de la escena. Para elegir un objeto con el que interactuar, mueve el ratón o utiliza el <b>stick analógico izquierdo</b> en el mando. Cuando hayas elegido un objeto, usa el <b>botón izquiero del ratón</b>, pulsa <b>ENTER</b> o <b>ESPACIO</b> en el teclado o el <b>botón de confirmación</b> en el mando para interactuar con él.
+
+    Puedes pausar el juego en cualquier momento pulsando <b>ESCAPE</b> en el teclado o el <b>botón del menú</b> en el mando. En el menú de pausa puedes leer este manual, ajustar las opciones del juego, o volver al menú principal.
+  Page3: |-
+    <size="36">Navegación en los menús</size>
+
+    Para navegar entre los menús y las vetanas, mueve el ratón, usa las <b>FLECHAS DE DIRECCIÓN</b> del teclado, o usa el <b>stick analógico izquierdo</b> en el mando. Usa el <b>botón izquierdo del ratón</b> o pulsa <b>ENTER</b> o <b>ESPACIO</b> en el ratón o el <b>botón de confirmación</b> en el mando para activar un botón.
+
+    Para ajustar las opciones o los deslizadores de volumen, haz clic en las flechas de la opción que quieras cambiar y mueve libremente el deslizador, una las <b>FLECHAS DE DIRECCIÓN</b> o <b>PÁGINA ARRIBA</b> y <b>PÁGINA ABAJO</b> en el teclado, y usa el <b>stick analógico izquierdo</b> o los <b>botones superiores izquerdo y derecho</b> del mando.
+
+    Para navegar en una ventana de lectura, justo como en la que estás ahora, haz clic en los botones de la ventana, pulsa <b>PÁGINA ARRIBA</b> y <b>PÁGINA ABAJO</b> en el teclado o los <b>botones superiores izquerdo y derecho</b> del mando para moverte entre páginas, o pulsa <b>ATRÁS</b> en el teclado o el <b>botón de cancelar</b> en el mando para cerrar esta ventana.
+  Page4: |-
+    <size="36">Soporte técnico</size>
+
+    ¿Te has atascado en algún sitio o has encontrado un bug? Puedes contactar con Audune Games vía email en <b>support@audune.com</b> o a través de nuestras redes sociales.
+
+
+# Table for credits
+Menu/Credits:
+  Page1: |-
+    <size="36">Creado por</size>
+
+    <b>Danae Dekker</b>
+    directora creativa, desarrollo del videojuego, diseño del audio, música
+
+    <b>Maricu Mana</b>
+    diseño de personajes y entornos
+
+    <b>Eva van der Meer</b>
+    guionista
+  Page2: |-
+    <size="36">Con el talento vocal de</size>
+
+    <b>Leader Looi</b>
+    Dawn, mujer reportera
+
+    <b>Katherine Tole</b>
+    Aranea, niña pequeña
+
+    <b>Jessica Spencer</b>
+    Lilith, niño pequeño
+
+    <b>Martijn Weber</b>
+    hombre reportero, locutor
+  Page3: |-
+    <size="36">Créditos finales</size>
+
+    <i>Traducido por</i>
+    Cassandra Plagelat (Francés), Danae Dekker (Inglés, Neerlandés), Eric Montiel López (Español), Eva van der Meer (Neerlandés)
+
+    <i>Gracias especialmente a</i>
+    Alexis Orellana, Elijah Gabriel, Maarten Oud, Volmer Montsma
+
+    <i>Gracias a</i>
+    Amber Veerman, Bastiaan van Bentum, Ciska Vriezenga, Greg Candel, Stijn de Koning, Than van Nispen tot Pannerden, Thomas van Rossum
+
+    <i>Efectos de sonido adicionales</i>
+    caquet, giddster, InspectorJ, jimruss68, klankbeeld, kyles, ReiyaManor, Sandermotions, The Unfinished
+
+
+# Table for character names
+Characters:
+  Dawn: Dawn
+  Lilith: Lilith
+  Aranea: Aranea
+  Girl: Niña
+  Boy: Niño
+  Butterfly: Mariposa
+  FemaleNewsreader: Reportera
+  MaleNewsreader: Reportero
+  Announcer: Locutor
+
+
+# Table for hints
+Hints:
+  ClickOnObjects: "Haz clic en los objetos para que Dawn interactúe con ellos"
+  ClickToContinueDialogue: "Haz clic o pulsa confirmar para pasar al siguiente diálogo"
+
+
+# Table for dialogue in chapter 1
+Chapter_1/Dialogue:
+  # Nightmare
+  1001_Girl_VO: "¡Jajaja! ¡Dawn es un hada! ¡Ningún padre va a quererla!"
+  1002_Boy_VO: "¡Oye, mira, es Dawn, la rarita!"
+  1003_Girl_VO: "¡Jajaja!"
+  1004_Boy_VO: "¿Oh, eso son lágrimas? ¿Te hemos hecho llorar, Dawn?"
+  1005_Girl_VO: "¡Pues a ver si te ahogas en ellas! Justo como tú y el resto de las hadas, ahogais, quemáis y matáis a quien os apetece."
+  1006_Dawn_Upset_VO: "N-- ¡No soy un hada!"
+  1007_Girl_VO: "“¡No soy un hada!” Tendrías que escucharte ahora mismo. No me extraña que nadie quiera adoptarte."
+  1008_Dawn_Upset_VO: "¡Parad por favor! ¡Dejadme en paz de una vez!"
+  1009_Boy_VO: "Nunca te dejaremos sola, Dawn. ¡Tu especie no merece compasión!"
+  1010_Girl_VO: "Mira a tu alrededor, Dawn. Una casa llena de huérfanos, hijos de humanos, y todo gracias a tu especie. Gracias a tu existencia. ¡Sucio híbrido!"
+  1011_Boy_VO: "¡Jajaja!"
+  1012_Dawn_Shocked_VO: "¡No!"
+
+  # Dawn wakes up
+  1013_Dawn_Shocked: "¡No, por favor!"
+  1014_Dawn_Sad: "..."
+  1015_Dawn_Neutral: "Era un sueño, solo un sueño..."
+  1016_Dawn_Neutral: "..."
+  1017_Dawn_Puzzled: "Y... ¿qué es ese aleteo? Seguro que es ese sonido el que me está despertando."
+  1018_Dawn_Puzzled: "¿Uh?"
+  1019_Dawn_Smiling: "Hola preciosa, ¿cómo has entrado?"
+  1020_Butterfly: "..."
+  1021_Dawn_Smiling: "¡Jaja! En fin, ¿qué estabas pensando, Dawn? ¡No es como si las mariposas pudiesen hablar!"
+  1022_Butterfly: "..."
+  1023_Dawn_Smiling: "¡No suelen gustarme mucho las alas, pero las tuyas son muy bonitas!"
+  1024_Dawn_Smiling: "Vamos, te abriré la ventana. ¡Pero ten cuidado ahí fuera, pequeñina!"
+  1025_Dawn_Serious_VO: "Debería dormir un poco más. Tengo trabajo por la mañana y necesito toda la energía que pueda conseguir para la actuación de patinaje esta noche."
+  1026_Dawn_Neutral_VO: "Pero aún tengo bastante fresca esa pesadilla de antes."
+  1027_Dawn_Neutral_VO: "Creo que voy a necesitar alguna distracción para tranquilizarme un poco..."
+
+  # Interction with window
+  1101_Dawn_Smiling_VO: "Ceylynn es una ciudad preciosa por la noche. Todas las luces son tan bonitas..."
+  1102_Dawn_Smiling_VO: "Me alegro mucho de vivir en Ceylynn. Creo que una gran ciudad como esta es el lugar más seguro que puede haber para un híbrido."
+
+  # Interaction with diary
+  1201_Dawn_Diary_VO: |-
+    <size="36">Día 22 del Nuevo Comienzo</size>
+
+    Después de dudar mucho, ¡por fin me he apuntado al campeonato regional de patinaje artístico! Hay alguna que otra condición especial si quieres apuntarte teniendo... ya sabes... una cola. Pero no quiero hacerlo siendo un híbrido. Quiero apuntarme como un humano.
+  1202_Dawn_Diary_VO: |-
+    <size="36">Día 16 del Mes de Senith</size>
+
+    Vaya, acabo de acordarme de que no he escrito en bastante tiempo. En fin, hoy ha sido un día maravilloso, no cómo ayer.
+
+    Me dolía la cola porque llevaba apretada demasiado fuerte un par de días, así que decidí dejar colgar al bicho un rato. Solo un poquito de descanso y mañana de vuelta a la rutina, pensé. ¡Nunca más! Sé que no todos están mirándome, pero siento que es así. Parece que mi cola sea lo único que ven cuando me están mirando. Como si fuese lo único relevante sobre mí...
+
+    ¡Pero hoy ha sido un muy buen día! Hacía un poco de frío, pero por primera vez no me ha importado. ¡Más capas de ropa bajo las que esconderme, jaja!
+  1203_Dawn_Diary_VO: |-
+    <size="36">Día 11 del Florecer de Light</size>
+
+    Otra temporada sin escribir en el diario. Estoy empezando a pensar que solo se me ocurre hacerlo cuando estoy estresada. Aunque tampoco es que eso sea mala señal. Quiero decir, ¡al menos no estoy escribiendo todos los días si ese es el caso!
+
+    ¡La semana que viene es el concurso regional y la verdad es que me estoy emocionando bastante al respecto!
+  1204_Dawn_Diary_VO: |-
+    <size="36">Día 12 del Florecer de Light</size>
+
+    ¿Puedo retirar todo lo que escribí ayer? Aunque esté emocionada por la competición, ¡también me estoy empezando a poner más nerviosa!
+  1205_Dawn_Diary_VO: |-
+    <size="36">Día 20 del Florecer de Light</size>
+
+    ¡Había una mariposa preciosa en mi habitación en mitad de la noche! Sus alas eran increíbles, aunque yo no querría tener alas jamás en la vida.
+
+    No soy supersticiosa, pero creo que la mariposa ha sido una buena señal. Cada vez se me da mejor esconder la cola antes de salir a patinar. Hoy tendré que hacerlo sin la ayuda de Aranea por primera vez, ¡pero seguro que me las apañaré!
+
+  # Interaction with flyer
+  1301_Dawn_Flyer_VO: "Dice: “¡Dale a los híbridos una oportunidad en la pelea contra el mal!”"
+  1302_Dawn_Serious_VO: "Está bien que Aranea se haya metido en política. Siempre ha querido lo mejor para los híbridos y los humanos."
+  1303_Dawn_Neutral_VO: "Ese “mal” al que Aranea se refiere son las hadas."
+  1304_Dawn_Neutral_VO: "En los medios, suelen escucharse historias acerca de humanos que mueren a manos de las hadas, pero nunca se comentan las muertes de los híbridos."
+  1305_Dawn_Neutral_VO: "Incluso si ellos también son víctimas, quizá incluso más."
+  1306_Dawn_Puzzled_VO: "Pero también hay hadas que están siendo matadaa tanto por humanos como por híbridos. ¿Cómo puedes defender eso?"
+  1307_Dawn_Smiling_VO: "Es muy noble por parte de Aranea el estar comprometida a esta causa. No podría hacerlo yo sola."
+
+  # Interaction with radio
+  1401_FemaleNewsreader: "--es que la segunda parte de la competición regional de patinaje artístico se celebrará esta noche!"
+  1402_FemaleNewsreader: "¡La competición promete ser excitante, debido a que el número de participantes de este año es más alto que de costumbre!"
+  1403_MaleNewsreader: "¡Muchísimas gracias, Manja! Abriremos esta hora con una canción de The Bug Boys. ¡Esperamos que la disfrutéis!"
+  1404_Dawn_Smiling_VO: "¡Eso no me ha relajado en lo más mínimo!"
+  1405_Dawn_Smiling_VO: "Sí que es verdad que hay mucha competencia, ¡pero sé que estoy lista para esto!"
+  1406_Dawn_Serious_VO: "Bueno, ya he tenido suficiente música."
+
+  # Interaction with clock
+  1501_Dawn_Serious_VO: "Solo seis horas más hasta que la alarma suene otra vez..."
+  1502_Dawn_Serious_VO: "Mañana entro a trabajar pronto a la librería."
+
+  # Interaction with skates
+  1601_Dawn_Smiling_VO: "¡Mi posesión más preciada!"
+  1602_Dawn_Smiling_VO: "Tuve que ahorrar durante meses para comprarlos, ¡y tuve la suerte de que se pusieran de oferta justo antes de ir a por ellos!"
+  1603_Dawn_Smiling_VO: "Todavía no he patinado con ningún otro par."
+  1604_Dawn_Smiling_VO: "Cada competición me pone bastante nerviosa, ¡pero siempre les tengo muchas ganas!"
+  1605_Dawn_Smiling_VO: "He entrenado durante meses con Aranea, ¡así que creo que voy bien de práctica!"
+
+  # Interaction with photo
+  1701_Dawn_Serious_VO: "Aranea y yo nos conocimos incluso antes de que reformasen el orfanato."
+  1702_Dawn_Smiling_VO: "Ella era el único híbrido que había en la casa antes de que llegase yo. ¡Nos hicimos amigas enseguida!"
+  1703_Dawn_Serious_VO: "Nadie quería absolutamente nada que ver contigo si eras un híbrido. Y la verdad es que tiene sentido en retrospectiva."
+  1704_Dawn_Serious_VO: "La mayoría de los niños que se quedaron huérfanos lo hicieron gracias a la violencia de las hadas."
+  1705_Dawn_Serious_VO: "Los niños iban y venían a medida que pasaba el tiempo, pero nosotras dos siempre estábamos juntas en la casa."
+  1706_Dawn_Smiling_VO: "Yo siempre admiré a Aranea, y quizá todavía lo hago en secreto. Siempre la he considerado mi hermana mayor."
+  1707_Dawn_Smiling_VO: "Nadie, además de Aranea, me ha protegido nunca. Después de todo, las dos tenemos mucho en común."
+  1708_Dawn_Serious_VO: "Aranea nunca ha dado muchos detalles acerca de la muerte de sus padres, solo dice que los rumores son correctos."
+  1709_Dawn_Serious_VO: "Que las hadas son peligrosas y que tenemos que alejarnos de ellas."
+  1710_Dawn_Serious_VO: "Aunque a mí nunca me han dado miedo, pero supongo que es fácil decirlo cuando nunca has conocido a una."
+  1711_Dawn_Puzzled_VO: "Pero si de verdad son tan peligrosas, ¿por qué no han acabado ya con todo Ceylynn?"
+
+  # Interaction with bed
+  1801_Dawn_Neutral_VO: "Creo que lo mejor va a ser dormir un poco."
+  1802_Prompt_Yes: "Volver a la cama"
+  1803_Prompt_No: "Todavía no"
+
+
+# Table for interactive objects in chapter 1
+Chapter_1/Objects:
+  Bed: Cama
+  Clock: Reloj
+  Diary: Diario de Dawn
+  Door: Puerta
+  Flyer: Folleto de Aranea
+  Photo: Foto
+  Radio: Radio portátil
+  Skates: Patines
+  Window: Ventana
+
+
+# Table for dialogue in chapter 2
+Chapter_2/Dialogue:
+  # Aranea helps Dawn with tucking her tail
+  2001_Dawn_UpsetAtTail: "¡Vamos! ¡Coopera conmigo por una vez!"
+  2002_Aranea_Smiling: "¿Dawn? ¿Estás bien?"
+  2003_Dawn_Smiling: "¡Aranea! ¡Gracias a Ileth que estás aquí!"
+  2004_Aranea_Smiling: "¡Claro que estoy aquí!"
+  2005_Aranea_Smiling: "¿Te sientes preparada para esto?"
+  2006_Dawn_Sad: "..."
+  2007_Aranea_Worried: "¿Dawn?"
+  2008_Dawn_Upset: "La estúpida cola no coopera, no soy capaz de esconderla en condiciones."
+  2009_Dawn_Sad: "¡Si se dan cuenta de que tengo cola, seguro que me descalifican!"
+  2010_Aranea_Smiling: "Nah, estoy segura de que no lo harán."
+  2011_Dawn_Sad: "¿Lo dices de verdad?"
+  2012_Aranea_Puzzled: "Uhmm..."
+  2013_Aranea_Puzzled: "¿No se supone que esto va de cómo de bien puedas patinar?"
+  2014_Aranea_Serious: "Además, la cola es parte de ti, Dawn."
+  2015_Aranea_Serious: "No puedes vivir sin ella, igual que no puedes vivir sin piernas."
+  2016_Dawn_Sad: "Aprecio el comentario, Aranea..."
+  2017_Dawn_Crying: "Pero cada vez que veo esa cola, pienso de dónde viene y en cómo no quiero que se me asocie con eso."
+  2018_Aranea_Neutral: "Perdón, lo entiendo."
+  2019_Aranea_Smiling: "No tendría que estar aquí diciendo lo que pienso, estoy aquí para ti."
+  2020_Aranea_Smiling: "Vamos, deja que te ayude."
+  2021_Aranea_Smiling: "Coge tus patines, te los tienes que poner."
+
+  # After interaction with skates
+  2022_Aranea_Smiling: "Mírate. ¡No hay ni rastro de cola!"
+  2023_Dawn_Smiling: "De verdad que no sé qué haría sin ti, Aranea."
+  2024_Dawn_Smiling: "Pensaba que no ibas a venir, deberías estar en tu demostración."
+  2025_Aranea_Smiling: "Si, tenía que estar allí, pero ahora estoy aquí."
+  2026_Dawn_Shocked: "Pero tu protes--"
+  2027_Aranea_Smiling: "Es menos importante que tu competición."
+  2028_Dawn_Serious: "Entonces espero que no hayas venido para nada. No sé si puedo hacerlo..."
+  2029_Aranea_Smiling: "No seas tonta, claro que puedes."
+  2030_Aranea_Serious: "Además, creo que el concurso está a punto de empezar, así que no tenemos tiempo para cuestionarnos tus habilidades ahora."
+  2031_Aranea_Smiling: "¡Lo vas a hacer perfectamente! No pienses en ello, simplemente hazlo."
+  2032_Dawn_Smiling: "¡No pienses en ello, simplemente hazlo!"
+
+
+# Table for interactive objects in chapter 2
+Chapter_2/Objects:
+  Skates: Patines
+
+
+# Table for splash texts in chapter 2
+Chapter_2/Splash:
+  NextEvening: "La tarde siguiente..."
+
+
+# Table for dialogue in chapter 3
+Chapter_3/Dialogue:
+  # Lilith's peformance
+  3001_Announcer: "¡Nuestra penúltima concursante es Lilith!"
+  3002_Announcer: "Ha ganado 66.26 puntos en su programa corto. ¡Dadle un cálido aplauso!"
+  3003_Dawn_Serious_VO: "De momento todo el mundo ha patinado muy bien, pero creo que todavía tengo una oportunidad."
+  3004_Dawn_Serious_VO: "Me da curiosidad ver que tal lo hace esa tal Lilith."
+  3005_Dawn_Shocked_VO: "¡Guau, eso ha sido raro! ¡Menuda forma de empezar!"
+  3006_Dawn_Shocked_VO: "Madre mía... ¡esta chica es muy buena! Ese salto y ese giro, pero qué--"
+  3007_Dawn_Puzzled_VO: "Espera... eso son... ¿alas?"
+  3008_Dawn_Puzzled_VO: "No, es imposible..."
+  3009_Dawn_Shocked_VO: "¡Si, si que lo son! ¿Cómo no he podido darme cuenta antes?"
+  3010_Dawn_Serious_VO: "Ahora entiendo como es capaz de saltar tan alto, con esas alas tiene que ser pan comido."
+  3011_Dawn_Serious_VO: "Esto no puede estar permitido, ¿verdad? Además, distraen mucho."
+  3012_Dawn_Serious_VO: "Pero está patinando tan bien... Debe ser gracias a esas alas."
+  3013_Dawn_Upset_VO: "¡No me puedo creer que nadie haya dicho nada al respecto! ¿Acaso nadie las ve aletear?"
+  3014_Announcer: "¡Menudo espectáculo! ¡Vamos a ver las puntuaciones!"
+  3015_Dawn_Serious_VO: "No escuches, Dawn. No importa la de puntos que haya sacado, ¡puedes con esto!"
+  3016_Announcer: "Por su patinaje libre, ¡Lilith gana 127.97 puntos!"
+  3017_Dawn_Upset_VO: "Puedes hacerlo, puedes hacerlo... No vas a perder contra un hada."
+  3018_Announcer: "Eso suma un total de... ¡194.23 puntos!"
+  3019_Announcer: "Eso significa que Lilith se ha colocado en primera posición, ¡enhorabuena!"
+  3020_Dawn_Upset_VO: "Mantén la calma, Dawn."
+  3021_Announcer: "¡Y ahora, nuestra última concursante en la categoría de patinaje femenino individual: Dawn!"
+  3022_Announcer: "Ha ganado 67.82 puntos en su programa corto. ¡Dadle un buen aplauso!"
+  3023_Dawn_Serious_VO: "Vamos... Puedes con esto, Dawn."
+  3024_Dawn_Serious_VO: "Solo tienes que calmarte y mantener la cabeza fría."
+
+
+# Table for dialogue in chapter 4
+Chapter_4/Dialogue:
+  # Dawn's performance
+  4001_Dawn_Enthusiastic_VO: "¡Siempre me sale perfecta esta parte!"
+  4002_Dawn_Enthusiastic_VO: "¡Si! ¡Eso no podría haberlo hecho mejor!"
+  4003_Dawn_Serious_VO: "Ugh, esta podría haber salido mejor. ¡Será mejor que espabile!"
+  4004_Dawn_Puzzled_VO: "¡Oye! Ahí está esa hada, en la audiencia. ¡Y todavía le aletean las alas!"
+  4005_Dawn_Serious_VO: "No importa, Dawn, no te centres en el hada."
+  4006_Dawn_Upset_VO: "¡Agh! ¡No soy capaz de concentrarme teniendo a esa hada plantada delante!"
+  4007_Dawn_Serious_VO: "De acuerdo, esta es mi oportunidad. Si este salto sale bien, ¡ganaré la competición!"
+  4008_Dawn_Shocked_VO: "¡Oh, no! ¡Mi cola se está aflojando!"
+  4009_Dawn_Neutral_VO: "Uhg, esa caída todavía duele un poco."
+  4010_Dawn_Puzzled_VO: "¿Por qué están tardando tanto? ¿De qué están hablando los jueces?"
+  4011_Announcer: "Después de una corta discusión, los jueces han deliberado que Dawn ha sido, desafortunadamente, descalificada."
+  4012_Announcer: "Las regulaciones de seguridad dictan claramente que los concursantes que cuenten con cola deben hacérnoslo saber..."
+  4013_Announcer: "De esa forma, la organización y el concursante pueden llegar a un acuerdo mutuo sobre el problema."
+  4014_Dawn_Shocked: "¡No! ¡No! ¡Por favor! ¡Eso no es justo!"
+  4015_Dawn_Upset: "Acaso no has visto a esa--"
+  4016_Announcer: "¡Esto significa que Lilith es la campeona de la competición de patinaje femenino individual! ¡Enhorabuena!"
+  4017_Dawn_Upset_VO: "¡No me lo puedo creer! ¡Lilith ha ganado! Tiene que ser facilísimo si puedes estar distrayendo a los demás..."
+
+
+# Table for dialogue in chapter 5
+Chapter_5/Dialogue:
+  # Dawn meets Lilith
+  5001_Dawn_Angry: "¡Lo sabía! ¡Sabía que esto iba a ser un desastre!"
+  5002_Dawn_Angry: "Nunca pasa anda bueno cuando se involucran las hadas..."
+  5003_Dawn_Angry: "Especialmente una que va por ahí intentando distraerme con sus estúpidas alas."
+  5004_Dawn_Angry: "Dasde luego no es mi culpa que--"
+  5005_Lilith_Smiling: "¿Hola? ¿Está Dawn aquí?"
+  5006_Dawn_Neutral: "Sí, estoy aquí."
+  5007_Lilith_Smiling: "He visto tu actuación, ¡tienes mucho talento!"
+  5008_Lilith_Smiling: "Tu descalificación ha sido completamente injustificada. En mi opinión, no estabas haciendo nada peligroso."
+  5009_Lilith_Smiling: "Personalmente, creo que tu cola es muy--"
+  5010_Dawn_Shocked: "¿¡Tú?!"
+  5011_Dawn_Angry: "Tú no tienes derecho a tener una opinión sobre mi cola, ¡así que cierra la boca!"
+  5012_Dawn_Angry: "¡Todo esto es por tu culpa! ¿Acaso tienes alguna idea cómo de duro he tenido que trabajar para llegar hasta aquí?"
+  5013_Dawn_Angry: "¿De durante cuánto tiempo he soñado con este momento?"
+  5014_Dawn_Angry: "¿Solo para que tú pudieras sabotearme e irte de rositas con el premio?"
+  5015_Dawn_Angry: "¿Sabes lo embarazoso que es perder contra un hada? ¿Quién te crees que eres?"
+  5016_Lilith_Puzzled: "Pero--"
+  5017_Dawn_Angry: "Oh, por favor, sabes de sobra de lo que estoy hablando."
+  5018_Dawn_Angry: "Tú y esas malditas alas habéis arruinado toda mi actuación."
+  5019_Dawn_Angry: "Cómo se supone que tengo que concentrarme con esas... cosas distrayéndome, ¿eh?"
+  5020_Lilith_Sad: "Lo-- Lo siento... No sabía que podías ver mis alas."
+  5021_Lilith_Sad: "No era mi intención distraerte en absoluto."
+  5022_Dawn_Angry: "No, claro que no lo era."
+  5023_Dawn_Angry: "¡Igual que tampoco era tu intención venir a restregarme tu victoria en la cara!"
+  5024_Lilith_Shocked: "Yo--"
+  5025_Dawn_Angry: "Mira... ¡déjame en paz!"
+  5026_Dawn_Upset: "¡Agh!"
+
+  # Aranea comforts Dawn
+  5027_Aranea_Neutral: "Dawn, ¿estás bien?"
+  5028_Aranea_Worried: "¿Dawn?"
+  5029_Dawn_Sad: "..."
+  5030_Aranea_Worried: "Oh, Dawn..."
+  5031_Dawn_Crying: "Debería haber sabido que esconder mi cola no era suficiente..."
+  5032_Aranea_Neutral: "Era lo único que podríamos hacer."
+  5033_Dawn_Crying: "¡Pero sus alas, Aranea! ¡Aleteaban claramente!"
+  5034_Dawn_Crying: "¡Era un hada y aun así ha ganado!"
+  5035_Dawn_Upset: "¿Eso no es justo, verdad? ¡Ni siquiera deberían haberla dejado participar con esas alas!"
+  5036_Aranea_Puzzled: "¿De qué alas estás hablando?"
+  5037_Dawn_Upset: "Las alas del hada que ha ganado el concurso, con la que estaba discutiendo hace un momento."
+  5038_Aranea_Neutral: "No he visto ningún par de alas, Dawn."
+  5039_Dawn_Upset: "¿De verdad vas a decirme que me estoy imaginando cosas?"
+  5040_Dawn_Upset: "¡Estoy segura de lo que veía! Ni siquiera era capaz de concentrarme en mi patinaje."
+  5041_Dawn_Shocked: "..."
+  5042_Dawn_Shocked: "¿Y si Lilith no tenía alas después de todo?"
+  5043_Dawn_Shocked: "¡Le he dicho cosas muy feas, Aranea!"
+  5044_Dawn_Shocked: "Ella solo había venido para decirme que le había impresionado mi actuación."
+  5045_Dawn_Shocked: "¿Y si resulta que al final no es un hada?"
+  5046_Aranea_Serious: "Espera, ¡¿pensabas que era un hada de verdad?!"
+  5047_Aranea_Serious: "Si lo era, tienes un problema muy distinto ahora, Dawn, y lo sabes mejor que nadie."
+  5048_Dawn_Sad: "No estoy de humor para un sermón ahora mismo, Aranea..."
+  5049_Aranea_Serious: "¡Te hablo en serio, Dawn! ¡Aléjate de las hadas! ¡Son peligrosas!"
+  5050_Aranea_Serious: "Si Lilith era un hada de verdad, y ahora sabe quién eres, y además la has ofendido..."
+  5051_Aranea_Serious: "...tienes entre manos un poblema mucho más gordo que la competición de patinaje.."
+  5052_Dawn_Angry: "No creo que todo vaya tan mal como dices. ¡No ha habido incidentes en semanas!"
+  5053_Aranea_Serious: "¡Todo va exactamente tan mal como digo!"
+  5054_Aranea_Angry: "¡Tienes que empezar a pensar antes de actuar, Dawn! Olvídate de esa mentalidad de “simplemente hazlo”."
+  5055_Aranea_Angry: "¡Se supone que no tienes que ponerte en peligro!"
+  5056_Dawn_Angry: "A mí, al menos, no me parecía una asesina."
+  5057_Dawn_Angry: "Solo ha venido para saludar y decirme que le gusta como patino. Así no es como actúan los asesinos, ¿verdad que no?"
+  5058_Aranea_Angry: "¡No, todavía no! ¡Pero ya veremos qué opinas al respecto cuando estés ardiendo viva solo por haberle dado la mano!"
+  5059_Aranea_Shocked: "..."
+  5060_Aranea_Serious: "Lo siento. No estoy ayudndo, ¿verdad?"
+  5061_Aranea_Serious: "Creo que las dos estamos un poco enfadadas ahora mismo, y seguro que tienes ganas de descansar."
+  5062_Dawn_Smiling: "Me parece que tú también deberías hacerlo."
+  5063_Aranea_Smiling: "Sí, supongo que sí."
+  5064_Aranea_Smiling: "En fin, ¿por qué no nos vemos en el bar de Mae mañana por la mañana?."
+  5065_Aranea_Smiling: "Así las dos podremos tomarnos el tiempo para descansar y continuar allí con la conversación."
+  5066_Dawn_Smiling: "Sí, me parece bien. ¡Nos vemos mañana!"
+
+
+# Table for dialogue in chapter 6
+Chapter_6/Dialogue:
+  # Dawn is waiting for Aranea
+  6001_Dawn_Neutral_VO: "Me pregunto por qué Aranea está tardando tanto en llegar. ¡Espero que no esté empapada cuando llegue!"
+
+  # Interaction with menu
+  6101_Dawn_Smiling_VO: "¡He oído que la nueva tarta de fruta que Lena ha estado haciendo es increíble!"
+  6102_Dawn_Smiling_VO: "Creo que podría ser mi desayuno de hoy."
+
+  # Interaction with rain coat
+  6201_Dawn_Neutral_VO: "No ha llovido tanto en mucho tiempo. Menudo contraste con el bonito día de primavera que hacía ayer."
+
+  # Interaction with jukebox
+  6301_Dawn_Smiling_VO: "No dolería escuchar un poco de música mientras espero, ¿no?"
+  6302_Dawn_Smiling_VO: "¡A lo mejor han sacado algún single nuevo!"
+  6303_Prompt_Yes: "Escuchar música"
+  6304_Prompt_No: "Cancelar"
+  6305_Dawn_Neutral_VO: "¡Me ha gustado mucho esa canción!"
+
+  # Interaction with newspaper
+  6401_Dawn_Serious_VO: "Hmm, ¿cómo es esto posible?"
+  6402_Dawn_Newspaper_VO: |-
+    <size="36">Cortador de alas ataca de nuevo</size>
+
+    El misterioso cortador de alas dejó una nueva víctima anoche. La difunta, un hada de 23 años, se encontró muerta en las proximidades del centro comercial local esta mañana. Su cuerpo estaba cubierto de arañazos y sus alas habían sido arrancadas de forma violenta.
+
+    Las autoridades todavía no tienen ninguna pista e invitan a todos los humanos, hadas e híbridos a denunciar cualquier suceso fuera de lo normal.
+  6403_Dawn_Shocked_VO: "Vaya... ¡Eso es horrible!"
+  6404_Dawn_Upset_VO: "Esto es--"
+  6405_Dawn_Upset_VO: "¡Estoy muy cansada de esta violencia! Solo causa dolor, y no soluciona nada."
+  6406_Dawn_Serious_VO: "Nadie merece morir por la forma en la que nacieron, ni siquiera las hadas."
+  6407_Dawn_Sad_VO: "Pobre chica..."
+  6408_Dawn_Serious_VO: "Espero que todo este circo se termine pronto. Le están quitando la vida a demasiados humanos, híbridos, e incluso hadas."
+
+  # Interaction with Aranea (65):
+  6501_Dawn_Smiling_VO: "Oh, ahí está Aranea. ¿Debería decirle que venga?"
+  6502_Prompt_Yes: "Llamar a Aranea"
+  6503_Prompt_No: "Todavía no"
+  6504_Dawn_Waving: "¡Oye, Aranea!"
+  6505_Aranea_Smiling: "¡Hola, Dawn!"
+
+  # Dawn talks with Aranea
+  6002_Aranea_Neutral: "¿Pudiste dormir bien anoche?"
+  6003_Dawn_Smiling: "¡Si, sorprendentemente bien! ¿Tú qué tal?"
+  6004_Aranea_Neutral: "He tenido noches mejores. Pero he tenido bastante tiempo para pensar en todo."
+  6005_Dawn_Enthusiastic: "¡Yo también! ¡He llegado a la conclusión de que solo hay una cosa que puedo hacer después de lo que pasó ayer!"
+  6006_Aranea_Smiling: "¿Apuntarte a otra competición de patinaje?"
+  6007_Dawn_Puzzled: "Hmm..."
+  6008_Dawn_Smiling: "Vale, quizá hay dos opciones."
+  6009_Aranea_Smiling: "¡Venga, dime!"
+  6010_Dawn_Smiling: "Tengo que encontrar a Lilith y pedirle perdón."
+  6011_Aranea_Puzzled: "¿¡Dawn?!"
+  6012_Dawn_Neutral: "Espera, deja que me explique, ¿vale? Imagina que Lilith resulta ser un hada después de todo."
+  6013_Dawn_Smiling: "Eso significaría que ella ha sido capaz de esconder sus alas y su cola con algún tipo de magia, ¡y quizá podría ayudarme a hacer lo mismo!"
+  6014_Dawn_Neutral: "Y si no es un hada resultará que solo me lo estaba imaginando, y en ese caso se merece una buena disculpa."
+  6015_Dawn_Sad: "Me porté muy mal con ella y lo único que hizo fue venir a decir hola."
+  6016_Aranea_Serious: "Dawn, ya sabes lo que opino al respecto."
+  6017_Dawn_Serious: "¿Pero no se supone que esto va de como yo me sienta, Aranea?"
+  6018_Aranea_Angry: "¿Alguna vez te has parado a pensar en las consecuencias que tus acciones tienen para mí, como amiga?"
+  6019_Dawn_Serious: "Si, por supuesto, pero--"
+  6020_Aranea_Angry: "¿Pero qué? Pensaba que el único motivo por el que querías esconder tu cola era para que no te relacionasen con las hadas."
+  6021_Aranea_Angry: "¿Así que a santo de qué quieres ponerte a buscar un hada ahora?"
+  6022_Dawn_Angry: "¡No lo entiendes, Aranea!"
+  6023_Aranea_Angry: "¡Explícamelo entonces, Dawn! De verdad que quiero entenderlo, pero no soy capaz."
+  6024_Dawn_Sad: "Yo--"
+  6025_Dawn_Upset: "Me he odiado a mí misma toda la vida, ¿vale? De dónde vengo, lo que eso le ha hecho a la gente a mi alrededor..."
+  6026_Dawn_Upset: "Toda esa violencia sin sentido, todo ese dolor... Nunca voy a poder hacer nada al respecto."
+  6027_Dawn_Serious: "Además, ese no es para nada mi trabajo, sino el tuyo. No estoy hecha para la política."
+  6028_Dawn_Serious: "Y además-- bueno, no sé, seguramente sea una estupidez..."
+  6029_Aranea_Neutral: "Continúa."
+  6030_Dawn_Serious: "No hay nada bueno sobre esa cola. ¡Esta cosa tiene que irse, Aranea!"
+  6031_Dawn_Serious: "Y cualquiera que la mire sabrá que he intentado deshacerme de ella. Las cicatrices hablan por sí mismas."
+  6032_Dawn_Sad: "Pero nunca funciona, y siempre fallo, y fallo, y vuelvo a fallar..."
+  6033_Dawn_Upset: "Y cada vez que me miro en el espejo sigo viéndola. Ese-- ¡ese apéndice!"
+  6034_Dawn_Upset: "No me pertenece y nunca lo hará. No quiero ser ni un híbrido ni un hada, solo quiero ser humana."
+  6035_Dawn_Sad: "Y sé que eso es imposible, pero al menos puedo intentarlo y fingir. ¿Lo entiendes ahora?"
+  6036_Aranea_Worried: "Creo que sí..."
+  6037_Dawn_Sad: "Y espero que también entiendas que si encuentro a alguien que pueda ayudarme con esto, ¡querré tomar esa oportunidad con los brazos abiertos!"
+  6038_Dawn_Sad: "Incluso si eso supone un riesgo enorme. Porque no creo que pueda aguantar mucho más..."
+  6039_Aranea_Shocked: "..."
+  6040_Aranea_Shocked: "Dawn, ¿por qué nunca me habías dicho que estabas tan desesperada?"
+  6041_Dawn_Sad: "No quería darte todavía más cosas en las que pensar..."
+  6042_Aranea_Serious: "Tengo que estar al tanto de estas cosas, Dawn. Así puedo--"
+  6043_Dawn_Angry: "¿Así puedes qué? ¡No puedes arreglarlo todo, Aranea!"
+  6044_Aranea_Neutral: "Si, ya lo sé..."
+  6045_Dawn_Angry: "¿Entonces qué harías en mi caso? ¿Cómo quieres que solucionemos esto? Porque estoy abierta a todas las ideas que tengas."
+  6046_Aranea_Neutral: "Yo..."
+  6047_Dawn_Serious: "Justo lo que pensaba. Mira, sé que esto suena complicado y que te asusta."
+  6048_Dawn_Neutral: "Aunque si estuviera en tu lugar, tampoco querría que lo hicieras."
+  6049_Dawn_Neutral: "Pero tienes que entender que tendré muchísimo cuidado."
+  6050_Aranea_Worried: "Eres mi mejor amiga, y no sé si puedo vivir sin ti, Dawn."
+  6051_Dawn_Smiling: "¡Y no tienes que hacerlo! Estaré bien, te lo prometo."
+  6052_Aranea_Worried: "..."
+  6053_Dawn_Neutral: "¡De verdad que si! No quiero hacerte daño, pero tengo que hacer esto por mi propio bienestar."
+  6054_Aranea_Worried: "Te lo suplico, Dawn. No hagas esto por favor. Puede que te sientas muy mal ahora mismo, pero esta no es la solución que buscas."
+  6055_Dawn_Neutral: "Aranea..."
+  6056_Aranea_Serious: "Te lo prometo. Haré todo lo posible para ayudarte con la cola, y haré todo lo que esté en mi mano para mantenerte a salvo."
+  6057_Aranea_Serious: "Por favor, prométeme que no vas a ir a buscar a esa hada."
+  6058_Dawn_Sad: "No puedo..."
+  6059_Aranea_Worried: "Te lo suplico."
+  6060_Dawn_Sad: "..."
+  6061_Aranea_Enthusiastic: "Espera, ¡ya sé! Tengo conexiones con gente que forma parte de las autoridades, en política, en la ciudad, en todas partes."
+  6062_Aranea_Enthusiastic: "¿Qué tal si les pido que busquen Lilith y que me avisen si la ven?"
+  6063_Aranea_Smiling: "¡Incluso yo misma lo haré!"
+  6064_Dawn_Puzzled: "¿Y luego qué?"
+  6065_Aranea_Smiling: "Si la encontramos, iré a buscarla con otra persona y llegaremos a un acuerdo."
+  6066_Dawn_Worried: "¿Y estarás segura si haces eso?"
+  6067_Aranea_Smiling: "¿Yo? Estaré perfectamente segura, ¡no fui a esas dos clases de defensa propia para nada!"
+  6068_Dawn_Smiling: "¡Jajaja!"
+  6069_Dawn_Worried: "Pero no me parece bien quedarme sentada esperando mientras tú haces todo el trabajo."
+  6070_Aranea_Smiling: "Tú también puedes empezar a buscarla, pero no vayas a hablar con ella tu sola, por favor."
+  6071_Aranea_Serious: "De momento, ve a casa y descansa un poco."
+  6072_Aranea_Neutral: "Me encantaría ir contigo, pero tengo otros asuntos que tratar primero."
+  6073_Dawn_Neutral: "¿Qué clase de asuntos?"
+  6074_Aranea_Smiling: "Bueno, ya sabes... solo arreglar un par de problemas aquí y allá."
+  6075_Dawn_Smiling: "Ah, de acuerdo. Buena suerte, supongo."
+  6076_Aranea_Neutral: "¿Y tú te vas a casa?"
+  6077_Dawn_Smiling: "Me voy a casa."
+  6078_Aranea_Smiling: "¡Bien, gracias! ¡Nos vemos luego!"
+
+  # Interaction with menu
+  6111_Dawn_Neutral_VO: "Creo que el menú de la comida va a salir pronto."
+
+  # Interaction with rain coat
+  6211_Dawn_Neutral_VO: "Muy típico, mi chubasquero está completamente seco, pero fuera todavía llueve a cántaros."
+
+  # Interaction with jukebox
+  6311_Dawn_Smiling_VO: "No dolería escuchar un poco de música antes de volver a casa, ¿no?"
+
+  # Interaction with newspaper
+  6411_Dawn_Serious_VO: "Hmm, quizá Aranea tiene razón."
+  6412_Dawn_Neutral_VO: "Aunque no creo que Lilith sea peligrosa. Al menos, no lo parecía..."
+  6413_Dawn_Neutral_VO: "Además, si es una asesina, seguro que me habría matado inmediatamente ayer. Le di todas las razones para hacerlo."
+
+  # Interaction with door
+  6601_Dawn_Neutral_VO: "Creo que volveré a casa entonces. ¿Debería salir a la calle?"
+  6602_Prompt_Yes: "Salir"
+  6603_Prompt_No: "Quedarse"
+
+
+# Table for interactive objects in chapter 6
+Chapter_6/Objects:
+  Coat: Chubasquero
+  Door: Puerta
+  Jukebox: Gramola
+  Menu: Menú
+  Newspaper: Periódico
+
+
+# Table for splash texts in chapter 6
+Chapter_6/Splash:
+  NextMorning: "La mañana siguiente..."
+
+
+# Table for dialogue in chapter 7
+Chapter_7/Dialogue:
+  # Dawn comes utside
+  7001_Dawn_Angry_VO: "Ugh, ¡dos pasos fuera y ya estoy empapada otra vez!"
+  7002_Dawn_Serious_VO: "Será mejor que vaya a casa, y rápido."
+
+  # Interaction with bookstore
+  7101_Dawn_Smiling_VO: "¡La mejor librería en Ceylynn si me preguntas a mí! Pero es fácil decirlo si trabajas en ella."
+  7102_Dawn_Smiling_VO: "¡Por no decir que Minke es la mejor jefa de la historia!"
+  7103_Dawn_Neutral_VO: "Ya es hora de que coja un par de libros nuevos."
+  7104_Dawn_Smiling_VO: "Minke siempre me deja leer sus libros y devolverlos si no tienen desperfectos."
+  7105_Dawn_Serious_VO: "Pero últimamente he estado tan ocupada patinando que no he tenido mucho tiempo para leer."
+  7106_Dawn_Smiling_VO: "Hoy la librería está cerrada, ¡pero me encantaría volver en otro momento!"
+
+  # Interaction with diner
+  7201_Dawn_Puzzled_VO: "Acabo de venir de allí."
+  7202_Dawn_Smiling_VO: "Mae's Place ha estado en este sitio desde que tengo memoria. ¡Y espero que nunca deje de estarlo!"
+  7203_Dawn_Smiling_VO: "¡Y Lena es la mejor anfitriona de Ceylynn, eso está claro!"
+
+  # Interaction with restaurant
+  7301_Dawn_Serious_VO: "He escuchado que en este restaurante tienen muy buen pescado. Puede que incluso el mejor de toda la ciudad, pero también es muy caro."
+  7302_Dawn_Neutral_VO: "Parece que está cerrado, pero, incluso si estuviera abierto, está claro que no podría permitirme comer ahí."
+  7303_Dawn_Neutral_VO: "Pero parece un lugar bonito y acogedor. Quizá debería ahorrar un poco e ir con Aranea algún día."
+
+  # Interaction with grocery store
+  7401_Dawn_Serious_VO: "¡Todo tiene muy buena pinta! Pero no necesito nada ahora."
+
+  # Lilith appears
+  7003_Dawn_Puzzled_VO: "¿Uh? ¿Esa no es--?"
+  7004_Dawn_Shocked_VO: "¡Sí, es Lilith! ¡Rápido, tengo que esconderme!"
+  7005_Dawn_Shocked_VO: "¡Ves! ¡Las alas están aleteando! ¡Lo sabía! ¡Es un hada!"
+  7006_Dawn_Shocked_VO: "Vale, vale, todo está bien. Esto está bien. Creo que todavía no me ha visto..."
+  7007_Dawn_Puzzled_VO: "Quizá pueda decirle algo..."
+  7008_Dawn_Puzzled_VO: "No, se lo he prometido a Aranea--"
+  7009_Dawn_Angry_VO: "¡No le he prometido nada a Aranea! Solo le he dicho que volvería a casa..."
+  7010_Dawn_Serious_VO: "Pero honestamente, ¿cómo de peligroso puede ser? ¡Estamos a plena luz del día!"
+  7011_Dawn_Puzzled_VO: "Incluso si fuese una asesina, nunca actuaría de forma tan descarada, ¿verdad?"
+  7012_Dawn_Serious_VO: "Parece que está bastante triste, por cierto... Espero que no esté enfadada por lo que le dije ayer."
+  7013_Dawn_Serious_VO: "Para alguien que ha ganado la competición de patinaje, no se la ve nada animada."
+  7014_Dawn_Neutral_VO: "No puede doler pedirle perdón..."
+  7015_Dawn_Shocked_VO: "¡No, ha desaparecido! Creo que ha ido por ese callejón."
+  7016_Dawn_Serious_VO: "Tengo que encontrarla, no me importa lo que diga Aranea."
+  7017_Dawn_Serious_VO: "Lilith merece mis disculpas. Quizá me ayude cuando podamos conocernos mejor."
+
+  # Interaction with stairs
+  7501_Dawn_Neutral_VO: "¿Debería seguir a Lilith?"
+  7502_Prompt_Yes: "Seguir a Lilith"
+  7503_Prompt_No: "Todavía no"
+
+
+# Table for interactive objects in chapter 7
+Chapter_7/Objects:
+  Bookstore: Librería de Minke
+  Diner: Mae's Place
+  Grocery: Tienda
+  Restaurant: O Sonho Carthisko
+  Stairs: Escaleras
+
+
+# Table for dialogue in chapter 8
+Chapter_8/Dialogue:
+  # Dawn enters the haven
+  8001_Dawn_Shocked: "¡Guau!"
+  8002_Dawn_Shocked: "Esto es... Nunca he visto nada así de precioso..."
+  8003_Dawn_Serious_VO: "Ahí está Lilith. ¿Debería llamarle la atención?"
+  8004_Prompt_Yes: "Llamar la atención de Lilith"
+  8005_Prompt_No: "Todavía no"
+  8006_Dawn_Serious_VO: "Es ahora o nunca, Dawn. No la has seguido para nada."
+  8007_Dawn_Smiling: "Esto..."
+  8008_Lilith_Shocked: "¿Quién...? Oh, tu..."
+  8009_Dawn_Shy: "Hola, yo, esto..."
+  8010_Lilith_Upset: "¿Si?"
+  8011_Dawn_Shy: "Yo quería--"
+  8012_Lilith_Upset: "¿Perseguirme y gritarme todavía más? ¿No crees que ya has dicho suficiente?"
+  8013_Dawn_Serious: "Mira, siento lo que pasó ayer. Solo viniste para hablar conmigo. No estuvo nada bien tratarte de esa forma."
+  8014_Lilith_Sad: "No, no estuvo nada bien."
+  8015_Dawn_Sad: "..."
+  8016_Lilith_Serious: "Quizá no debería haber entrado en la competición. Era un poco injusto."
+  8017_Dawn_Smiling: "No, no, ¡lo hiciste muy bien! Y lo entiendo, yo... ni siquiera estaba permitido que yo me apuntase."
+  8018_Dawn_Sad: "Pero lo hice, así que puedo entender por qué tú también lo hiciste. Siento haber sido tan mala contigo."
+  8019_Lilith_Smiling: "Gracias, lo entiendo, de verdad."
+  8020_Lilith_Smiling: "No has sido la primera ni serás la última persona que me trate de esa manera."
+  8021_Lilith_Sad: "Parece que ese es el efecto que tengo en la gente..."
+  8022_Dawn_Sad: "Lilith, yo--"
+  8023_Lilith_Smiling: "¡Pero tú eres la primera que ha venido a disculparse! Aprecio mucho que lo hayas hecho."
+  8024_Lilith_Neutral: "Me gustaría decirte que lo que me dijiste no me hizo daño, pero fue todo bastante hiriene."
+  8025_Dawn_Neutral: "No quería decirlo, de verdad..."
+  8026_Lilith_Neutral: "¿Seguro? Porque no creo que te salieran así como así."
+  8027_Dawn_Shy: "Yo creo que... ya sabes..."
+  8028_Dawn_Sad: "Todo el mundo me tiene miedo porque tengo cola, y todo el mundo piensa que soy un hada."
+  8029_Dawn_Serious: "Y entonces apareces tú y nadie se asusta. Todos te aplauden, pero cuando me ven a mí se esconden."
+  8030_Lilith_Smiling: "Yo no creo que des miedo."
+  8031_Dawn_Smiling: "¡No, por supuesto que no!"
+  8032_Lilith_Puzzled: "¿A qué te refieres?"
+  8033_Dawn_Smiling: "Eres un hada. Un toque tuyo y esto muerta. ¿A santo de qué podrías tenerme miedo?"
+  8034_Lilith_Upset: "¡No es verdad que todo lo que toque muera!"
+  8035_Lilith_Upset: "Y si de verdad pensases eso, ¿por qué me has seguido en primer lugar?"
+  8036_Lilith_Upset: "¡Además, he escuchado que los híbridos también son perfectamente capaces de matar!"
+  8037_Dawn_Shocked: "..."
+  8038_Lilith_Shy: "Lo siento, solo estoy un poco tensa..."
+  8039_Dawn_Smiling: "¡Jaja!"
+  8040_Lilith_Puzzled: "¿Qué pasa?"
+  8041_Dawn_Smiling: "Perdón, pero no puedo entender como alguien con tu magia puede estar tenso..."
+  8042_Dawn_Smiling: "Y desde luego no en un lugar como este."
+  8043_Lilith_Smiling: "¿Qué, el santuario?"
+  8044_Dawn_Puzzled: "¿Es eso lo que es este lugar?"
+  8045_Lilith_Smiling: "Más o menos. ¿Es esta la primera vez que vienes aquí?"
+  8046_Dawn_Smiling: "He vivido toda mi vida en Ceylynn, y nunca he escuchado hablar de este sitio antes."
+  8047_Lilith_Smiling: "Tengo una propuesta loca... pero bueno, estoy un poco loca al fin y al cabo..."
+  8048_Lilith_Smiling: "¿Te gustaría que te enseñase el lugar?"
+  8049_Dawn_Smiling: "Pues... ¡la verdad es que suena divertido!"
+  8050_Lilith_Enthusiastic: "¡Si! Me sorprende mucho que nunca hayas oído hablar del santuario. Está en el centro de la ciudad."
+  8051_Dawn_Neutral: "Bueno, tampoco es que haya carteles que te dirijan aquí..."
+  8052_Lilith_Smiling: "¡Claro que no, tonta! Pero tú eres como yo, ¿verdad que si?"
+  8053_Dawn_Puzzled: "¿En qué sentido?"
+  8054_Lilith_Neutral: "Bueno, en el de que también tienes magia, ¿me equivoco? El santuario solo es accesible para seres mágicos."
+  8055_Dawn_Puzzled: "Umm, hasta donde yo sé, yo no--"
+  8056_Lilith_Puzzled: "¿Qué?"
+  8057_Dawn_Smiling: "¡Lo prometo! Supongo que lo sabría si tuviera poderes mágicos."
+  8058_Lilith_Smiling: "Espera, ¿acaso no sabes nada acerca de la magia de los híbridos?"
+  8059_Lilith_Enthusiastic: "Vamos, te llevaré con alguien que te lo explicará todo. ¿Vienes conmigo?"
+  8060_Dawn_Neutral_VO: "¿Debería ir con Lilith?"
+  8061_Prompt_Yes: "Seguir a Lilith"
+  8062_Prompt_No: "No seguir a Lilith"
+  8063_Dawn_Puzzled_VO: "¿Magia? ¿Yo? ¿De qué está hablando?"
+  8064_Dawn_Puzzled_VO: "Hmm..."
+  8065_Dawn_Smiling_VO: "Mientras tenga cuidado, supongo que no pasará nada por ir con ella."
+  8066_Prompt: |-
+    <size="36">¡Enhorabuena!</size>
+
+    ¡Has terminado Invisible Wings: Chapter One!
+
+    Has ayudado a Dawn muy bien, pero todavía tiene un largo camino por delante. ¡Con tu ayuda, el resto de la historia podrá llevarse a cabo, y podrás continuar tu aventura con Dawn, Lilith y Aranea! No vamos a desvelar nada de antemano, ¡pero todavía les esperan muchas sorpresas!

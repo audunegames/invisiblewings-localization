@@ -1,4 +1,4 @@
-# English locale for Invisible Wings
+# English locale for Invisible Wings: Chapter One
 # Created by Eva van der Meer and Danae Dekker
 
 # The ISO 639-1 code of the locale
@@ -76,13 +76,13 @@ Menu/Manual:
   Page1: |-
     <size="36">Welcome</size>
 
-    This guide is intended to get you familiar with the controls of Invisible Wings!
+    This guide is intended to get you familiar with the controls of Invisible Wings: Chapter One!
 
-    Note that Invisible Wings <b>contains implicit references to murder and self-harm</b>, which may be content not suited for everyone. Player discretion is advised.
+    Note that Invisible Wings: Chapter One <b>contains implicit references to murder and self-harm</b>, which may be content not suited for everyone. Player discretion is advised.
   Page2: |-
     <size="36">Controls</size>
 
-    Invisible Wings is a visual novel and is primarily focused on dialogue. To continue to the next dialogue, either use the <b>left mouse button</b> or press <b>ENTER</b> or <b>SPACE</b> on the keyboard or the <b>submit button</b> on the controller.
+    Invisible Wings: Chapter One is a visual novel and is primarily focused on dialogue. To continue to the next dialogue, either use the <b>left mouse button</b> or press <b>ENTER</b> or <b>SPACE</b> on the keyboard or the <b>submit button</b> on the controller.
 
     At some moments in the game you can interact with objects in the scene. To choose an object to interact with, move the mouse or use the <b>left analog stick</b> on the controller. When you have selected an object, use the <b>left mouse button</b>, press <b>ENTER</b> or <b>SPACE</b> on the keyboard or the <b>submit button</b> on the controller to interact with it.
 
@@ -132,7 +132,7 @@ Menu/Credits:
     <size="36">Closing credits</size>
 
     <i>Translated by</i>
-    Cassandra Plagelat (French), Danae Dekker (English, Dutch), Eva van der Meer (Dutch)
+    Cassandra Plagelat (French), Danae Dekker (English, Dutch), Eric Montiel López (Spanish), Eva van der Meer (Dutch)
 
     <i>Special thanks to</i>
     Alexis Orellana, Elijah Gabriel, Maarten Oud, Volmer Montsma
@@ -745,6 +745,8 @@ Chapter_8/Dialogue:
   8064_Dawn_Puzzled_VO: "Hmm..."
   8065_Dawn_Smiling_VO: "As long as I'm careful, I suppose it wouldn't hurt to go with her."
   8066_Prompt: |-
-    Congratulations! You have finished the demo of Invisible Wings!
+    <size="36">Congratulations!</size>
+
+    You have finished Invisible Wings: Chapter One!
 
     You've helped Dawn very well, but she still has a long way to go. With your help the rest of the story can be realized, and you can continue this adventure together with Dawn, Lilith and Aranea! We're not going to spoil anything, but there are still a lot of surprises waiting for them!

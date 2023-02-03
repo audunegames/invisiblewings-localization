@@ -1,4 +1,4 @@
-# Dutch locale for Invisible Wings
+# Dutch locale for Invisible Wings: Chapter One
 # Created by Eva van der Meer and Danae Dekker
 
 # The ISO 639-1 code of the locale
@@ -76,13 +76,13 @@ Menu/Manual:
   Page1: |-
     <size="36">Welkom</size>
 
-    Deze gids is bedoeld om je vertrouwd te maken met de besturing van Invisible Wings!
+    Deze gids is bedoeld om je vertrouwd te maken met de besturing van Invisible Wings: Chapter One!
 
-    Merk op dat Invisible Wings <b>impliciete verwijzingen bevat naar moord en zelfbeschadiging</b>, wat inhoud kan zijn die niet voor iedereen geschikt is. Discretie van de speler wordt geadviseerd.
+    Merk op dat Invisible Wings: Chapter One <b>impliciete verwijzingen bevat naar moord en zelfbeschadiging</b>, wat inhoud kan zijn die niet voor iedereen geschikt is. Discretie van de speler wordt geadviseerd.
   Page2: |-
     <size="36">Besturing</size>
 
-    Invisible Wings is een visuele novelle en is vooral gericht op dialoog. Om door te gaan naar de volgende dialoog, gebruik je de <b>linkermuisknop</b>, druk je op <b>ENTER</b> of <b>SPATIE</b> op het toetsenbord of op de <b>bevestigen-knop</b> op de controller.
+    Invisible Wings: Chapter One is een visuele novelle en is vooral gericht op dialoog. Om door te gaan naar de volgende dialoog, gebruik je de <b>linkermuisknop</b>, druk je op <b>ENTER</b> of <b>SPATIE</b> op het toetsenbord of op de <b>bevestigen-knop</b> op de controller.
 
     Op sommige momenten in het spel kun je interacteren met voorwerpen in de omgeving. Om een object te selecteren, beweeg je de muis of gebruik je de <b>linker analoge stick</b> op de controller. Wanneer je een object hebt geselecteerd, gebruik je de <b>linkermuisknop</b>, druk je op <b>ENTER</b> of <b>SPATIE</b> op het toetsenbord of op de <b>bevestigen-knop</b> op de controller om ermee te interacteren.
 
@@ -94,7 +94,7 @@ Menu/Manual:
 
     Om de waarde van selectieknoppen of faders aan te passen, klik je op de pijlen van de selectieknop of op een positie op de fader, druk je op de <b>PIJLTJESTOETSEN</b> of <b>PAGE UP</b> en <b>PAGE DOWN</b> op het toestenbord of gebruik je de <b>linker analoge joystick</b> of de <b>linker en rechter schouderknoppen</b> van de controller.
 
-    Om in een leesvenster zoals deze te navigeren, gebruik je de knoppen onderaan in het venster, druk je op <b>PAGE UP</b> en <b>PAGE DOWN</b> op het toestenbord of de <b>linker en rechter schouderknoppen</b> van de controller om door de pagina's te bladeren of druk je op <b>BACKSPACE</b> op het toetsenbord of de <b>annulleren-knop</b> op de controller om het venster te sluiten.
+    Om in een leesvenster zoals deze te navigeren, gebruik je de knoppen onderaan in het venster, druk je op <b>PAGE UP</b> en <b>PAGE DOWN</b> op het toestenbord of de <b>linker en rechter schouderknoppen</b> van de controller om door de pagina's te bladeren of druk je op <b>BACKSPACE</b> op het toetsenbord of de <b>annuleren-knop</b> op de controller om het venster te sluiten.
   Page4: |-
     <size="36">Technische ondersteuning</size>
 
@@ -132,7 +132,7 @@ Menu/Credits:
     <size="36">Eindtitels</size>
 
     <i>Vertaald door</i>
-    Cassandra Plagelat (Frans), Danae Dekker (Engels, Nederlands), Eva van der Meer (Nederlands)
+    Cassandra Plagelat (Frans), Danae Dekker (Engels, Nederlands), Eric Montiel López (Spaans), Eva van der Meer (Nederlands)
 
     <i>Speciale dank aan</i>
     Alexis Orellana, Elijah Gabriel, Maarten Oud, Volmer Montsma
@@ -309,7 +309,7 @@ Chapter_2/Dialogue:
   2014_Aranea_Serious: "Bovendien hoort je staart bij jou, Dawn."
   2015_Aranea_Serious: "Je kunt niet zonder, net zomin je zonder je benen kan."
   2016_Dawn_Sad: "Ik waardeer je opmerking, Aranea..."
-  2017_Dawn_Crying: "Maar elke keer als ik die staart zie, denk ik aan waar die vandaan komt en hoe ik daar niet mee geässocieerd wil worden."
+  2017_Dawn_Crying: "Maar elke keer als ik die staart zie, denk ik aan waar die vandaan komt en hoe ik daar niet mee geassocieerd wil worden."
   2018_Aranea_Neutral: "Sorry, dat snap ik."
   2019_Aranea_Smiling: "En het gaat nu ook helemaal niet om wat ik vind, het gaat om jou."
   2020_Aranea_Smiling: "Kom, laat me je helpen."
@@ -745,6 +745,8 @@ Chapter_8/Dialogue:
   8064_Dawn_Puzzled_VO: "Hmm..."
   8065_Dawn_Smiling_VO: "Zo lang ik voorzichtig ben, kan het denk ik geen kwaad om met haar mee te gaan."
   8066_Prompt: |-
-    Gefeliciteerd! Je hebt de demo van Invisible Wings afgerond!
+    <size="36">Gefeliciteerd!</size>
+
+    Je hebt Invisible Wings: Chapter One afgerond!
 
     Je hebt Dawn ontzettend goed geholpen, maar ze heeft nog een lange weg te gaan. Met jouw hulp kan ook de rest van het verhaal verwezenlijkt worden en kun je dit avontuur samen met Dawn, Lilith en Aranea voortzetten! We gaan nog niets verklappen, maar er staan hen nog een hoop verrassingen te wachten!
