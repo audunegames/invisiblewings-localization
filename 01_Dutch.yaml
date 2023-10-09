@@ -25,6 +25,10 @@ Menu:
   Previous: Vorige
   Back: Terug
   Close: Sluiten
+  Navigate: Navigeren
+  Move: Cursor bewegen
+  Select: Selecteren
+  Change: Waarde veranderen
 
 
 # Table for main menu elements
@@ -82,19 +86,19 @@ Menu/Manual:
   Page2: |-
     <size="36">Besturing</size>
 
-    Invisible Wings: Chapter One is een visuele novelle en is vooral gericht op dialoog. Om door te gaan naar de volgende dialoog, gebruik je de <b>linkermuisknop</b>, druk je op <b>ENTER</b> of <b>SPATIE</b> op het toetsenbord of op de <b>bevestigen-knop</b> op de controller.
+    Invisible Wings: Chapter One is een visuele novelle en is vooral gericht op dialoog. Om door te gaan naar de volgende dialoog, gebruik je @Keyboard:IW/Click, druk je op @Keyboard:IW/Submit op het toetsenbord of op @Gamepad:IW/Submit op de controller.
 
-    Op sommige momenten in het spel kun je interacteren met voorwerpen in de omgeving. Om een object te selecteren, beweeg je de muis of gebruik je de <b>linker analoge stick</b> op de controller. Wanneer je een object hebt geselecteerd, gebruik je de <b>linkermuisknop</b>, druk je op <b>ENTER</b> of <b>SPATIE</b> op het toetsenbord of op de <b>bevestigen-knop</b> op de controller om ermee te interacteren.
+    Op sommige momenten in het spel kun je interacteren met voorwerpen in de omgeving. Om een object te selecteren, gebruik je @Keyboard:IW/Point of gebruik je @Gamepad:IW/Navigate op de controller. Wanneer je een object hebt geselecteerd, gebruik je @Keyboard:IW/Click, druk je op @Keyboard:IW/Submit op het toetsenbord of op @Gamepad:IW/Submit op de controller om ermee te interacteren.
 
-    Je kunt het spel op elk moment pauzeren door op <b>ESC</b> op het toetsenbord of de <b>menu-knop</b> op de controller te drukken. In het pauzemenu kn je deze handleiding lezen, de spelopties aanpassen of terugkeren naar het hoofdmenu.
+    Je kunt het spel op elk moment pauzeren door op @Keyboard:IW/Menu op het toetsenbord of @Gamepad:IW/Menu op de controller te drukken. In het pauzemenu kn je deze handleiding lezen, de spelopties aanpassen of terugkeren naar het hoofdmenu.
   Page3: |-
     <size="36">Navigatie door de menu's</size>
 
-    Om door vensters en menu's te navigeren, beweeg je de muis, druk je op de <b>PIJLTJESTOESTEN</b> op het toestenbord of gebruik je de <b>linker analoge stick</b> op de controller. Gebruik de <b>linkermuisknop</b>, druk op <b>ENTER</b> of <b>SPATIE</b> op het toetsenbord of op de <b>bevestigen-knop</b> op de controller om een knop te activeren.
+    Om door vensters en menu's te navigeren, gebruik je @Keyboard:IW/Point, druk je op @Keyboard:IW/Navigate op het toestenbord of gebruik je @Gamepad:IW/Navigate op de controller. Gebruik @Keyboard:IW/Click, druk op @Keyboard:IW/Submit op het toetsenbord of op @Gamepad:IW/Submit op de controller om een knop te activeren.
 
-    Om de waarde van selectieknoppen of faders aan te passen, klik je op de pijlen van de selectieknop of op een positie op de fader, druk je op de <b>PIJLTJESTOETSEN</b> of <b>PAGE UP</b> en <b>PAGE DOWN</b> op het toestenbord of gebruik je de <b>linker analoge joystick</b> of de <b>linker en rechter schouderknoppen</b> van de controller.
+    Om de waarde van selectieknoppen of faders aan te passen, gebruik je @Keyboard:IW/Click op de pijlen van de selectieknop of op een positie op de fader, druk je op @Keyboard:IW/PageUp@Keyboard:IW/PageDown op het toestenbord of gebruik je @Gamepad:IW/Navigate of @Gamepad:IW/PageUp@Gamepad:IW/PageDown op de controller.
 
-    Om in een leesvenster zoals deze te navigeren, gebruik je de knoppen onderaan in het venster, druk je op <b>PAGE UP</b> en <b>PAGE DOWN</b> op het toestenbord of de <b>linker en rechter schouderknoppen</b> van de controller om door de pagina's te bladeren of druk je op <b>BACKSPACE</b> op het toetsenbord of de <b>annuleren-knop</b> op de controller om het venster te sluiten.
+    Om in een leesvenster zoals deze te navigeren, gebruik je @Keyboard:IW/Click op de knoppen onderaan in het venster, druk je op @Keyboard:IW/PageUp@Keyboard:IW/PageDown op het toestenbord of @Gamepad:IW/PageUp@Gamepad:IW/PageDown op de controller om door de pagina's te bladeren of druk je op @Keyboard:IW/Cancel op het toetsenbord of @Gamepad:IW/Cancel op de controller om het venster te sluiten.
   Page4: |-
     <size="36">Technische ondersteuning</size>
 
@@ -159,8 +163,8 @@ Characters:
 
 # Table for hints
 Hints:
-  ClickOnObjects: "Klik op voorwerpen om Dawn ermee te laten interacteren"
-  ClickToContinueDialogue: "Klik of druk op de bevestigen-knop om door te gaan naar de volgende dialoog"
+  ClickOnObjects: "Klik op voorwerpen of druk op @IW/Submit om Dawn ermee te laten interacteren"
+  ClickToContinueDialogue: "Klik of druk op @IW/Submit om door te gaan naar de volgende dialoog"
 
 
 # Table for dialogue in chapter 1

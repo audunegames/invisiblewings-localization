@@ -25,6 +25,10 @@ Menu:
   Previous: Previous
   Back: Back
   Close: Close
+  Navigate: Navigate
+  Move: Move cursor
+  Select: Select
+  Change: Change value
 
 
 # Table for main menu elements
@@ -82,19 +86,19 @@ Menu/Manual:
   Page2: |-
     <size="36">Controls</size>
 
-    Invisible Wings: Chapter One is a visual novel and is primarily focused on dialogue. To continue to the next dialogue, either use the <b>left mouse button</b> or press <b>ENTER</b> or <b>SPACE</b> on the keyboard or the <b>submit button</b> on the controller.
+    Invisible Wings: Chapter One is a visual novel and is primarily focused on dialogue. To continue to the next dialogue, either use @Keyboard:IW/Click or press @Keyboard:IW/Submit on the keyboard or @Gamepad:IW/Submit on the controller.
 
-    At some moments in the game you can interact with objects in the scene. To choose an object to interact with, move the mouse or use the <b>left analog stick</b> on the controller. When you have selected an object, use the <b>left mouse button</b>, press <b>ENTER</b> or <b>SPACE</b> on the keyboard or the <b>submit button</b> on the controller to interact with it.
+    At some moments in the game you can interact with objects in the scene. To choose an object to interact with, use @Keyboard:IW/Point or use @Gamepad:IW/Navigate on the controller. When you have selected an object, use @Keyboard:IW/Click, press @Keyboard:IW/Submit on the keyboard or @Gamepad:IW/Submit on the controller to interact with it.
 
-    You can pause the game at any time by pressing <b>ESC</b> on the keyboard or the <b>menu button</b> on the controller. In the pause menu you can read this manual, adjust the game options, or return to the main menu.
+    You can pause the game at any time by pressing @Keyboard:IW/Menu on the keyboard or @Gamepad:IW/Menu on the controller. In the pause menu you can read this manual, adjust the game options, or return to the main menu.
   Page3: |-
     <size="36">Navigation through menus</size>
 
-    To navigate through windows and menus, move the mouse, press the <b>ARROW KEYS</b> on the keyboard, or use the <b>left analog stick</b> on the controller. Use the <b>left mouse button</b> or press <b>ENTER</b> or <b>SPACE</b> on the keyboard or the <b>submit button</b> on the controller to activate a button.
+    To navigate through windows and menus, use @Keyboard:IW/Point, press @Keyboard:IW/Navigate on the keyboard, or use @Gamepad:IW/Navigate on the controller. Use @Keyboard:IW/Click or press @Keyboard:IW/Submit on the keyboard or @Gamepad:IW/Submit on the controller to activate a button.
 
-    To adjust the value of selection controls or faders, click on the arrows of the selection control or at a position on the fader, press the <b>ARROW KEYS</b> or <b>PAGE UP</b> and <b>PAGE DOWN</b> on the keyboard, or use the <b>left analog stick</b> or the <b>left and right shoulder buttons</b> on the controller.
+    To adjust the value of selection controls or faders, use @Keyboard:IW/Click on the arrows of the selection control or at a position on the fader, press @Keyboard:IW/PageUp@Keyboard:IW/PageDown on the keyboard, or use @Gamepad:IW/Navigate or @Gamepad:IW/PageUp@Gamepad:IW/PageDown on the controller.
 
-    To navigate in a reader window, such as this window, click the buttons in the window, press <b>PAGE UP</b> and <b>PAGE DOWN</b> on the keyboard or the <b>left and right shoulder buttons</b> on the controller to navigate through the pages, or press <b>BACKSPACE</b> on the keyboard or the <b>cancel button</b> on the controller to close the window.
+    To navigate in a reader window, such as this window, use @Keyboard:IW/Click on the buttons in the window, press @Keyboard:IW/PageUp@Keyboard:IW/PageDown on the keyboard or @Gamepad:IW/PageUp@Gamepad:IW/PageDown on the controller to navigate through the pages, or press @Keyboard:IW/Cancel on the keyboard or @Gamepad:IW/Cancel on the controller to close the window.
   Page4: |-
     <size="36">Technical support</size>
 
@@ -159,8 +163,8 @@ Characters:
 
 # Table for hints
 Hints:
-  ClickOnObjects: "Click on objects to let Dawn interact with them"
-  ClickToContinueDialogue: "Click or press the submit button to continue to the next dialogue"
+  ClickOnObjects: "Click on objects or press @IW/Submit to let Dawn interact with them"
+  ClickToContinueDialogue: "Click or press @IW/Submit to continue to the next dialogue"
 
 
 # Table for dialogue in chapter 1

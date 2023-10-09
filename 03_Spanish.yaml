@@ -25,6 +25,10 @@ Menu:
   Previous: Anterior
   Back: Atrás
   Close: Cerrar
+  Navigate: Navegar
+  Move: Muevar el ratón
+  Select: Elegir
+  Change: Cambiar el valor
 
 
 # Table for main menu elements
@@ -82,19 +86,19 @@ Menu/Manual:
   Page2: |-
     <size="36">Controles</size>
 
-    Invisible Wings: Chapter One es una novela visual y está enfocada en el diálogo. Para avanzar al siguiente diálogo, usa el <b>botón izquierdo del ratón</b> o pulsa <b>ENTER</b> o <b>ESPACIO</b> en el teclado o el <b>botón de confirmación</b> en el mando.
+    Invisible Wings: Chapter One es una novela visual y está enfocada en el diálogo. Para avanzar al siguiente diálogo, usa @Keyboard:IW/Click o pulsa @Keyboard:IW/Submit en el teclado o @Gamepad:IW/Submit en el mando.
 
-    En algunos momentos del juego podrás interactuar con objetos de la escena. Para elegir un objeto con el que interactuar, mueve el ratón o utiliza el <b>stick analógico izquierdo</b> en el mando. Cuando hayas elegido un objeto, usa el <b>botón izquiero del ratón</b>, pulsa <b>ENTER</b> o <b>ESPACIO</b> en el teclado o el <b>botón de confirmación</b> en el mando para interactuar con él.
+    En algunos momentos del juego podrás interactuar con objetos de la escena. Para elegir un objeto con el que interactuar, usa @Keyboard:IW/Point o utiliza @Keyboard:IW/Navigate en el mando. Cuando hayas elegido un objeto, usa @Keyboard:IW/Click, pulsa  @Keyboard:IW/Submit en el teclado o @Gamepad:IW/Submit en el mando para interactuar con él.
 
-    Puedes pausar el juego en cualquier momento pulsando <b>ESCAPE</b> en el teclado o el <b>botón del menú</b> en el mando. En el menú de pausa puedes leer este manual, ajustar las opciones del juego, o volver al menú principal.
+    Puedes pausar el juego en cualquier momento pulsando @Keyboard:IW/Menu en el teclado o el <b>botón del menú</b> en el mando. En el menú de pausa puedes leer este manual, ajustar las opciones del juego, o volver al menú principal.
   Page3: |-
     <size="36">Navegación en los menús</size>
 
-    Para navegar entre los menús y las vetanas, mueve el ratón, usa las <b>FLECHAS DE DIRECCIÓN</b> del teclado, o usa el <b>stick analógico izquierdo</b> en el mando. Usa el <b>botón izquierdo del ratón</b> o pulsa <b>ENTER</b> o <b>ESPACIO</b> en el ratón o el <b>botón de confirmación</b> en el mando para activar un botón.
+    Para navegar entre los menús y las vetanas, usa @Keyboard:IW/Point, usa @Keyboard:IW/Navigate del teclado, o usa @Gamepad:IW/Navigate en el mando. Usa @Keyboard:IW/Click o pulsa @Keyboard:IW/Submit en el ratón o @Gamepad:IW/Submit en el mando para activar un botón.
 
-    Para ajustar las opciones o los deslizadores de volumen, haz clic en las flechas de la opción que quieras cambiar y mueve libremente el deslizador, una las <b>FLECHAS DE DIRECCIÓN</b> o <b>PÁGINA ARRIBA</b> y <b>PÁGINA ABAJO</b> en el teclado, y usa el <b>stick analógico izquierdo</b> o los <b>botones superiores izquerdo y derecho</b> del mando.
+    Para ajustar las opciones o los deslizadores de volumen, usa @Keyboard:IW/Click en las flechas de la opción que quieras cambiar y mueve libremente el deslizador, usa @Keyboard:IW/PageUp@Keyboard:IW/PageDown en el teclado, y usa @Gamepad:IW/Navigate o @Gamepad:IW/PageUp@Gamepad:IW/PageDown del mando.
 
-    Para navegar en una ventana de lectura, justo como en la que estás ahora, haz clic en los botones de la ventana, pulsa <b>PÁGINA ARRIBA</b> y <b>PÁGINA ABAJO</b> en el teclado o los <b>botones superiores izquerdo y derecho</b> del mando para moverte entre páginas, o pulsa <b>ATRÁS</b> en el teclado o el <b>botón de cancelar</b> en el mando para cerrar esta ventana.
+    Para navegar en una ventana de lectura, justo como en la que estás ahora, usa @Keyboard:IW/Click en los botones de la ventana, pulsa @Keyboard:IW/PageUp@Keyboard:IW/PageDown en el teclado o @Gamepad:IW/PageUp@Gamepad:IW/PageDown del mando para moverte entre páginas, o pulsa @Keyboard:IW/Cancel en el teclado o @Gamepad:IW/Cancel en el mando para cerrar esta ventana.
   Page4: |-
     <size="36">Soporte técnico</size>
 
@@ -159,8 +163,8 @@ Characters:
 
 # Table for hints
 Hints:
-  ClickOnObjects: "Haz clic en los objetos para que Dawn interactúe con ellos"
-  ClickToContinueDialogue: "Haz clic o pulsa confirmar para pasar al siguiente diálogo"
+  ClickOnObjects: "Haz clic en los objetos o pulsa @IW/Submit para que Dawn interactúe con ellos"
+  ClickToContinueDialogue: "Haz clic o pulsa @IW/Submit para pasar al siguiente diálogo"
 
 
 # Table for dialogue in chapter 1

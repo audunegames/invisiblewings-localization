@@ -25,7 +25,7 @@ The structure of the locale file is pretty self-explanatory, but should you have
 To create a new fan translation of Invisible Wings, do the following:
 
 1. Create a new locale file according to the above defined structure. You can use the already available locales as examples for the structure.
-2. Place the locale file in the directory `StreamingAssets\Localization` relative to your Invisible Wings installation folder.
+2. Place the locale file in the directory `Invisible Wings_Data\StreamingAssets\Localization` relative to your Invisible Wings installation folder.
 3. If everything is set up correctly in your locale file, the locale should now appear in the options menu of Invisible Wings. If not, you can see any errors in the log file located at `AppData\LocalLow\Audune Games\Invisible Wings\Player.log` relative to your user directory.
 
 To submit a new fan translation to this repository for possible inclusion in the base game, please create a pull request to this repository for each translation you want to add. Audune Games will approve pull requests and including them in the base game on a case-by-case basis.

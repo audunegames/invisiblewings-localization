@@ -25,6 +25,10 @@ Menu:
   Previous: Précédent
   Back: Retour
   Close: Fermer
+  Navigate: Naviguer
+  Move: Déplacer le curseur
+  Select: Choisir
+  Change: Modifier la valuer
 
 
 # Table for main menu elements
@@ -82,19 +86,19 @@ Menu/Manual:
   Page2: |-
     <size="36">Contrôles</size>
 
-    Invisible Wings: Chapter One est un visual novel et se concentre principalement sur les dialogues. Pour passer à la réplique suivante, vous pouvez utiliser le <b>bouton gauche de la souris</b> ou appuyer sur <b>ENTREE</b> ou <b>ESPACE</b> sur le clavier ou encore sur le <b>bouton de validation</b> de la manette.
+    Invisible Wings: Chapter One est un visual novel et se concentre principalement sur les dialogues. Pour passer à la réplique suivante, vous pouvez utiliser @Keyboard:IW/Click ou appuyer sur @Keyboard:IW/Submit sur le clavier ou encore sur @Gamepad:IW/Submit de la manette.
 
-    Par moments, dans le jeu, vous pourrez intéragir avec les objets dans le décor. Pour choisir un objet avec lequel inéragir, déplacez le curseur de la souris ou utilisez le <b>stick analogique gauche</b> de la manette. Une fois l'objet sélectionné, utilisez le <b>bouton gauche de la souris</b>, appuyez sur <b>ENTREE</b> ou <b>ESPACE</b> sur le clavier ou sur le <b>bouton de validation</b> de la manette pour intéragir avec.
+    Par moments, dans le jeu, vous pourrez intéragir avec les objets dans le décor. Pour choisir un objet avec lequel inéragir, utilisez @Keyboard:IW/Point ou utilisez @Gamepad:IW/Navigate de la manette. Une fois l'objet sélectionné, utilisez @Keyboard:IW/Click, appuyez sur @Keyboard:IW/Submit sur le clavier ou sur @Gamepad:IW/Submit de la manette pour intéragir avec.
 
-    Vous pouvez mettre le jeu en pause à n'importe quel moment en appuyant sur la touche <b>ECHAP</b> du clavier ou sur le <b>bouton menu</b> de la manette. Dans le menu pause, vous pourrez retrouver ce manuel, adjuster les options de jeu, ou retourner au menu principal.
+    Vous pouvez mettre le jeu en pause à n'importe quel moment en appuyant sur la touche @Keyboard:IW/Menu du clavier ou sur @Gamepad:IW/Menu de la manette. Dans le menu pause, vous pourrez retrouver ce manuel, adjuster les options de jeu, ou retourner au menu principal.
   Page3: |-
     <size="36">Navigation dans les menus</size>
 
-    Pour naviguer à travers les fenêtres et les menus, déplacez le curseur de la souris, appuyez sur les <b>TOUCHES FLÉCHÉES</b> du clavier, ou utlisez le <b>stick analogique gauche</b> de la manette. Utilisez le <b>bouton gauche de la souris</b> ou appuyez sur <b>ENTREE</b> ou <b>ESPACE</b> sur le clavier ou le<b>bouton de validation</b> de la manette pour activer un bouton.
+    Pour naviguer à travers les fenêtres et les menus, utilisez @Keyboard:IW/Point, appuyez sur @Keyboard:IW/Navigate du clavier, ou utlisez @Gamepad:IW/Navigate de la manette. Utilisez @Keyboard:IW/Click ou appuyez sur @Keyboard:IW/Submit sur le clavier ou @Gamepad:IW/Submit de la manette pour activer un bouton.
 
-    Pour ajuster la valeur de l'écran de sélection ou des faders, cliquez sur les flèches de l'écran de séléction ou sur une position du fader, appuyez sur les <b>TOUCHES FLÉCHÉES</b> ou <b>PAGE UP</b> et <b>PAGE DOWN</b> du clavier, ou utilisez le <b>stick analogique gauche</b> ou le <b>gâchettes gauche et droite</b> de la manette.
+    Pour ajuster la valeur de l'écran de sélection ou des faders, utilisez @Keyboard:IW/Click sur les flèches de l'écran de séléction ou sur une position du fader, appuyez sur @Keyboard:IW/PageUp@Keyboard:IW/PageDown du clavier, ou utilisez @Gamepad:IW/Navigate et @Gamepad:IW/PageUp@Gamepad:IW/PageDown de la manette.
 
-    Pour naviguer dans une fenêtre de lecture comme celle-ci, cliquez sur les boutons dans la fenêtre, appuyez sur <b>PAGE UP</b> et <b>PAGE DOWN</b> sur le clavier ou les <b>gâchettes gauches et droites</b> de la manette pour naviguer à travers les pages, ou appuyez sur la touche <b>EFFACER</b> du clavier ou le <b>bouton annuler</b> de la manette pour fermer la fenêtre.
+    Pour naviguer dans une fenêtre de lecture comme celle-ci, utilisez @Keyboard:IW/Click sur les boutons dans la fenêtre, appuyez sur @Keyboard:IW/PageUp@Keyboard:IW/PageDown sur le clavier ou @Gamepad:IW/PageUp@Gamepad:IW/PageDown de la manette pour naviguer à travers les pages, ou appuyez sur la touche @Keyboard:IW/Cancel du clavier ou @Gamepad:IW/Cancel de la manette pour fermer la fenêtre.
   Page4: |-
     <size="36">Support technique</size>
 
@@ -159,8 +163,8 @@ Characters:
 
 # Table for hints
 Hints:
-  ClickOnObjects: "Cliquez sur les objets pour que Dawn intéragisse avec"
-  ClickToContinueDialogue: "Cliquez ou pressez le bouton de validation pour passer au dialogue suivant"
+  ClickOnObjects: "Cliquez sur les objets ou pressez @IW/Submit pour que Dawn intéragisse avec"
+  ClickToContinueDialogue: "Cliquez ou pressez @IW/Submit pour passer au dialogue suivant"
 
 
 # Table for dialogue in chapter 1
