@@ -136,7 +136,7 @@ Menu/Credits:
     <size="36">Eindtitels</size>
 
     <i>Vertaald door</i>
-    Cassandra Plagelat (Frans), Danae Dekker (Engels, Nederlands), Eric Montiel López (Spaans), Eva van der Meer (Nederlands)
+    Alessia Menghi (Italiaans), Cassandra Plagelat (Frans), Danae Dekker (Engels, Nederlands), Eric Montiel López (Spaans), Eva van der Meer (Nederlands), Martina Matassoni (Italiaans)
 
     <i>Speciale dank aan</i>
     Alexis Orellana, Elijah Gabriel, Maarten Oud, Volmer Montsma
@@ -404,7 +404,7 @@ Chapter_5/Dialogue:
   5005_Lilith_Smiling: "Hallo? Is Dawn hier?"
   5006_Dawn_Neutral: "Ja, ik ben hier."
   5007_Lilith_Smiling: "Ik zag je net schaatsen, je bent echt heel goed!"
-  5008_Lilith_Smiling: "Het is helemaal onterecht dat je gediskwalifieerd bent. Volgens mij was je helemaal niet onveilig bezig."
+  5008_Lilith_Smiling: "Het is helemaal onterecht dat je gediskwalificeerd bent. Volgens mij was je helemaal niet onveilig bezig."
   5009_Lilith_Smiling: "Ik vind zelf je staart juist heel--"
   5010_Dawn_Shocked: "Jij?!"
   5011_Dawn_Angry: "Jij hebt helemaal niks te zeggen over mijn staart, dus hou je mond!"
